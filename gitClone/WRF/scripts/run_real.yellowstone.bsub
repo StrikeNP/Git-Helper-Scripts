@@ -1,0 +1,22 @@
+#!/bin/csh -f
+#
+# $Id$
+#
+#
+# LSF batch script to run WRF-CLUBB
+#BSUB -J run_real
+#BSUB -P P36741010
+#BSUB -n 4
+#BSUB -o wrf.log.output.%J
+#BSUB -e wrf.log.error.%J
+#BSUB -W 0:05
+#BSUB -q regular
+#BSUB -u $(whoami)@uwm.edu
+#BSUB -N
+#BSUB -B
+# #BSUB -R "span[ptile=16]"
+
+mpirun.lsf ./real.exe
+
+exit
+

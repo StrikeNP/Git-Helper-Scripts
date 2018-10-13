@@ -1,0 +1,252 @@
+# $Id: registry.clubb 932 2017-12-30 00:43:42Z huebler@uwm.edu $                                         
+
+ifdef ESRL
+state   real    eta0           ikjftb   moist      1         -     \
+   irusdf=(bdy_interp:dt)    "ETA0"           "QV-RST(T,P)"      "kg kg-1"
+endif #/*ESRL*/
+ifdef ESRL
+state   real    dfi_eta0       ikjftb   dfi_moist       1         -     \
+   rusdf=(bdy_interp:dt)  "DFI_ETA0"         "qv-qvs"          "kg kg-1"
+endif #/*ESRL*/
+ifdef ESRL
+state   real    ssr             ikjftb  scalar      1         -     \
+   irusdf=(bdy_interp:dt)      "SSR"        "Supersaturation"        "%"
+endif #/*ESRL*/
+
+ifdef ESRL
+state   real    dfi_ssr       ikjftb  dfi_scalar      1         -     \
+   rusdf=(bdy_interp:dt)    "DFI_SSR"      "supersaturation"      "%"
+endif #/*ESRL*/
+
+ifdef CLUBB
+#------- Added for the CLUBB PBL parameterization.
+# CLUBB PBL parameterization variables
+# CLUBB variables that are prognosed, or that are related to the prognosed variables.
+state    real  wpthlp_sgs           ikj              misc    1    Z    rhusd    "wpthlp_sgs"           "CLUBB subgrid-scale theta-l flux"                       "m s-1 K"
+state    real  wprtp_sgs            ikj              misc    1    Z    rhusd    "wprtp_sgs"            "CLUBB subgrid-scale total water (rt) flux"              "m s-1 kg kg-1"
+state    real  wp2_sgs              ikj              misc    1    Z    rhusd    "wp2_sgs"              "CLUBB subgrid-scale variance of vertical vel. (w)"      "m2 s-2"
+state    real  wp3_sgs              ikj              misc    1    -    rhusd    "wp3_sgs"              "CLUBB subgrid-scale wp^3"                               "m3 s-3"
+state    real  rtp2_sgs             ikj              misc    1    Z    rhusd    "rtp2_sgs"             "CLUBB subgrid-scale variance of rt"                     "kg2 kg-2"
+state    real  thlp2_sgs            ikj              misc    1    Z    rhusd    "thlp2_sgs"            "CLUBB subgrid-scale variance of theta-l"                "K2"
+state    real  rtpthlp_sgs          ikj              misc    1    Z    rhusd    "rtpthlp_sgs"          "CLUBB subgrid-scale covariance of rt and theta-l"       "kg kg-1 K"
+state    real  up2_sgs              ikj              misc    1    Z    rhusd    "up2_sgs"              "CLUBB subgrid-scale variance of u (wind component)"     "m2 s-2"
+state    real  vp2_sgs              ikj              misc    1    Z    rhusd    "vp2_sgs"              "CLUBB subgrid-scale variance of v (wind component)"     "m2 s-2"
+state    real  upwp_sgs             ikj              misc    1    Z    rhusd    "upwp_sgs"             "CLUBB subgrid-scale covariance of u and w"              "m2 s-2"
+state    real  vpwp_sgs             ikj              misc    1    Z    rhusd    "vpwp_sgs"             "CLUBB subgrid-scale covariance of v and w"              "m2 s-2"
+# CLUBB variables that need to be output from the CLUBB parameterization, saved, and input to the CLUBB parameterization during the following timestep.
+state    real  rcm_CLUBB            ikj              misc    1    -    rhusd    "rcm_CLUBB"            "CLUBB mean cloud water mixing ratio"                    "kg kg-1"
+state    real  cf_CLUBB             ikj              misc    1    -    rhusd    "cf_CLUBB"             "CLUBB grid-box cloud fraction"                          ""
+state    real  wpthvp_sgs           ikj              misc    1    Z    rhusd    "wpthvp_sgs"           "CLUBB subgrid-scale theta-v flux"                       "m s-1 K"
+state    real  wp2thvp_sgs          ikj              misc    1    -    rhusd    "wp2thvp_sgs"          "CLUBB subgrid-scale wp^2 thvp"                          "m2 s-2 K"
+state    real  rtpthvp_sgs          ikj              misc    1    Z    rhusd    "rtpthvp_sgs"          "CLUBB subgrid-scale covariance of rt and theta-v"       "kg kg-1 K"
+state    real  thlpthvp_sgs         ikj              misc    1    Z    rhusd    "thlpthvp_sgs"         "CLUBB subgrid-scale covariance of theta-l and theta-v"  "K2"
+# The CLUBB derived data type variables pdf_params and pdf_params_zm need to be output from the CLUBB parameterization, saved, and input to the
+# CLUBB parameterization during the following timestep.  These variables are saved in WRF-CLUBB as 4-D arrays.  In order to write output from
+# these variables to restart and history files, each variable stored in the 4-D array needs to be declared.  The full list of variables that
+# are part of the pdf_parameter derived type are found in CLUBB in pdf_parameter_module.F90.  Please list the variables in the same order here
+# as found in that file.
+# Variable type pdf_params, located on thermodynamic grid levels.
+state    real  -                    ikjf    pdf_params_CLUBB       1    -    -        -
+state    real  w_1                  ikjf    pdf_params_CLUBB       1    -    rhusd    "w_1_CLUBB"                  "Mean of w (1st PDF component)"                         "m s-1"
+state    real  w_2                  ikjf    pdf_params_CLUBB       1    -    rhusd    "w_2_CLUBB"                  "Mean of w (2nd PDF component)"                         "m s-1"
+state    real  varnce_w_1           ikjf    pdf_params_CLUBB       1    -    rhusd    "varnce_w_1_CLUBB"           "Variance of w (1st PDF component)"                     "m2 s-2"
+state    real  varnce_w_2           ikjf    pdf_params_CLUBB       1    -    rhusd    "varnce_w_2_CLUBB"           "Variance of w (2nd PDF component)"                     "m2 s-2"
+state    real  rt_1                 ikjf    pdf_params_CLUBB       1    -    rhusd    "rt_1_CLUBB"                 "Mean of r_t (1st PDF component)"                       "kg kg-1"
+state    real  rt_2                 ikjf    pdf_params_CLUBB       1    -    rhusd    "rt_2_CLUBB"                 "Mean of r_t (2nd PDF component)"                       "kg kg-1"
+state    real  varnce_rt_1          ikjf    pdf_params_CLUBB       1    -    rhusd    "varnce_rt_1_CLUBB"          "Variance of r_t (1st PDF component)"                   "kg2 kg-2"
+state    real  varnce_rt_2          ikjf    pdf_params_CLUBB       1    -    rhusd    "varnce_rt_2_CLUBB"          "Variance of r_t (2nd PDF component)"                   "kg2 kg-2"
+state    real  thl_1                ikjf    pdf_params_CLUBB       1    -    rhusd    "thl_1_CLUBB"                "Mean of th_l (1st PDF component)"                      "K"
+state    real  thl_2                ikjf    pdf_params_CLUBB       1    -    rhusd    "thl_2_CLUBB"                "Mean of th_l (2nd PDF component)"                      "K"
+state    real  varnce_thl_1         ikjf    pdf_params_CLUBB       1    -    rhusd    "varnce_thl_1_CLUBB"         "Variance of th_l (1st PDF component)"                  "K2"
+state    real  varnce_thl_2         ikjf    pdf_params_CLUBB       1    -    rhusd    "varnce_thl_2_CLUBB"         "Variance of th_l (2nd PDF component)"                  "K2"
+state    real  corr_w_rt_1          ikjf    pdf_params_CLUBB       1    -    rhusd    "corr_w_rt_1_CLUBB"          "Correlation of w and r_t (1st PDF component)"          ""
+state    real  corr_w_rt_2          ikjf    pdf_params_CLUBB       1    -    rhusd    "corr_w_rt_2_CLUBB"          "Correlation of w and r_t (2nd PDF component)"          ""
+state    real  corr_w_thl_1         ikjf    pdf_params_CLUBB       1    -    rhusd    "corr_w_thl_1_CLUBB"         "Correlation of w and th_l (1st PDF component)"         ""
+state    real  corr_w_thl_2         ikjf    pdf_params_CLUBB       1    -    rhusd    "corr_w_thl_2_CLUBB"         "Correlation of w and th_l (2nd PDF component)"         ""
+state    real  corr_rt_thl_1        ikjf    pdf_params_CLUBB       1    -    rhusd    "corr_rt_thl_1_CLUBB"        "Correlation of r_t and th_l (1st PDF component)"       ""
+state    real  corr_rt_thl_2        ikjf    pdf_params_CLUBB       1    -    rhusd    "corr_rt_thl_2_CLUBB"        "Correlation of r_t and th_l (2nd PDF component)"       ""
+state    real  alpha_thl            ikjf    pdf_params_CLUBB       1    -    rhusd    "alpha_thl_CLUBB"            "Factor relating to normalized variance for th_l"       ""
+state    real  alpha_rt             ikjf    pdf_params_CLUBB       1    -    rhusd    "alpha_rt_CLUBB"             "Factor relating to normalized variance for r_t"        ""
+state    real  crt_1                ikjf    pdf_params_CLUBB       1    -    rhusd    "crt_1_CLUBB"                "r_t coefficient in chi/eta eqns. (1st PDF comp.)"      ""
+state    real  crt_2                ikjf    pdf_params_CLUBB       1    -    rhusd    "crt_2_CLUBB"                "r_t coefficient in chi/eta eqns. (2nd PDF comp.)"      ""
+state    real  cthl_1               ikjf    pdf_params_CLUBB       1    -    rhusd    "cthl_1_CLUBB"               "th_l coefficient in chi/eta eqns. (1st PDF comp.)"     "kg kg-1 K-1"
+state    real  cthl_2               ikjf    pdf_params_CLUBB       1    -    rhusd    "cthl_2_CLUBB"               "th_l coefficient in chi/eta eqns. (2nd PDF comp.)"     "kg kg-1 K-1"
+state    real  chi_1                ikjf    pdf_params_CLUBB       1    -    rhusd    "chi_1_CLUBB"                "Mean of chi (1st PDF component)"                       "kg kg-1"
+state    real  chi_2                ikjf    pdf_params_CLUBB       1    -    rhusd    "chi_2_CLUBB"                "Mean of chi (2nd PDF component)"                       "kg kg-1"
+state    real  stdev_chi_1          ikjf    pdf_params_CLUBB       1    -    rhusd    "stdev_chi_1_CLUBB"          "Standard deviation of chi (1st PDF component)"         "kg kg-1"
+state    real  stdev_chi_2          ikjf    pdf_params_CLUBB       1    -    rhusd    "stdev_chi_2_CLUBB"          "Standard deviation of chi (2nd PDF component)"         "kg kg-1"
+state    real  stdev_eta_1          ikjf    pdf_params_CLUBB       1    -    rhusd    "stdev_eta_1_CLUBB"          "Standard deviation of eta (1st PDF component)"         "kg kg-1"
+state    real  stdev_eta_2          ikjf    pdf_params_CLUBB       1    -    rhusd    "stdev_eta_2_CLUBB"          "Standard deviation of eta (2nd PDF component)"         "kg kg-1"
+state    real  covar_chi_eta_1      ikjf    pdf_params_CLUBB       1    -    rhusd    "covar_chi_eta_1_CLUBB"      "Covariance of chi and eta (1st PDF component)"         "kg2 kg-2"
+state    real  covar_chi_eta_2      ikjf    pdf_params_CLUBB       1    -    rhusd    "covar_chi_eta_2_CLUBB"      "Covariance of chi and eta (2nd PDF component)"         "kg2 kg-2"
+state    real  corr_w_chi_1         ikjf    pdf_params_CLUBB       1    -    rhusd    "corr_w_chi_1_CLUBB"         "Correlation of w and chi (1st PDF component)"          ""
+state    real  corr_w_chi_2         ikjf    pdf_params_CLUBB       1    -    rhusd    "corr_w_chi_2_CLUBB"         "Correlation of w and chi (2nd PDF component)"          ""
+state    real  corr_w_eta_1         ikjf    pdf_params_CLUBB       1    -    rhusd    "corr_w_eta_1_CLUBB"         "Correlation of w and eta (1st PDF component)"          ""
+state    real  corr_w_eta_2         ikjf    pdf_params_CLUBB       1    -    rhusd    "corr_w_eta_2_CLUBB"         "Correlation of w and eta (2nd PDF component)"          ""
+state    real  corr_chi_eta_1       ikjf    pdf_params_CLUBB       1    -    rhusd    "corr_chi_eta_1_CLUBB"       "Correlation of chi and eta (1st PDF component)"        ""
+state    real  corr_chi_eta_2       ikjf    pdf_params_CLUBB       1    -    rhusd    "corr_chi_eta_2_CLUBB"       "Correlation of chi and eta (2nd PDF component)"        ""
+state    real  rsatl_1              ikjf    pdf_params_CLUBB       1    -    rhusd    "rsatl_1_CLUBB"              "Saturation mixing ratio r_sat(mu_Tl_1,p)"              "kg kg-1"
+state    real  rsatl_2              ikjf    pdf_params_CLUBB       1    -    rhusd    "rsatl_2_CLUBB"              "Saturation mixing ratio r_sat(mu_Tl_2,p)"              "kg kg-1"
+state    real  rc_1                 ikjf    pdf_params_CLUBB       1    -    rhusd    "rc_1_CLUBB"                 "Mean of r_c (1st PDF component)"                       "kg kg-1"
+state    real  rc_2                 ikjf    pdf_params_CLUBB       1    -    rhusd    "rc_2_CLUBB"                 "Mean of r_c (2nd PDF component)"                       "kg kg-1"
+state    real  cloud_frac_1         ikjf    pdf_params_CLUBB       1    -    rhusd    "cloud_frac_1_CLUBB"         "Cloud fraction (1st PDF component)"                    ""
+state    real  cloud_frac_2         ikjf    pdf_params_CLUBB       1    -    rhusd    "cloud_frac_2_CLUBB"         "Cloud fraction (2nd PDF component)"                    ""
+state    real  mixt_frac            ikjf    pdf_params_CLUBB       1    -    rhusd    "mixt_frac_CLUBB"            "Weight of 1st PDF component (Sk_w dependent)"          ""
+state    real  ice_supersat_frac_1  ikjf    pdf_params_CLUBB       1    -    rhusd    "ice_supersat_frac_1_CLUBB"  "Ice supersaturation fraction (1st PDF component)"      ""
+state    real  ice_supersat_frac_2  ikjf    pdf_params_CLUBB       1    -    rhusd    "ice_supersat_frac_2_CLUBB"  "Ice supersaturation fraction (2nd PDF component)"      ""
+# Variable type pdf_params_zm, located on momentum grid levels.
+state    real  -                       ikjf    pdf_params_zm_CLUBB       1    -    -        -
+state    real  w_1_zm                  ikjf    pdf_params_zm_CLUBB       1    -    rusd    "w_1_zm_CLUBB"                  "Mean of w (1st PDF component)"                         "m s-1"
+state    real  w_2_zm                  ikjf    pdf_params_zm_CLUBB       1    -    rusd    "w_2_zm_CLUBB"                  "Mean of w (2nd PDF component)"                         "m s-1"
+state    real  varnce_w_1_zm           ikjf    pdf_params_zm_CLUBB       1    -    rusd    "varnce_w_1_zm_CLUBB"           "Variance of w (1st PDF component)"                     "m2 s-2"
+state    real  varnce_w_2_zm           ikjf    pdf_params_zm_CLUBB       1    -    rusd    "varnce_w_2_zm_CLUBB"           "Variance of w (2nd PDF component)"                     "m2 s-2"
+state    real  rt_1_zm                 ikjf    pdf_params_zm_CLUBB       1    -    rusd    "rt_1_zm_CLUBB"                 "Mean of r_t (1st PDF component)"                       "kg kg-1"
+state    real  rt_2_zm                 ikjf    pdf_params_zm_CLUBB       1    -    rusd    "rt_2_zm_CLUBB"                 "Mean of r_t (2nd PDF component)"                       "kg kg-1"
+state    real  varnce_rt_1_zm          ikjf    pdf_params_zm_CLUBB       1    -    rusd    "varnce_rt_1_zm_CLUBB"          "Variance of r_t (1st PDF component)"                   "kg2 kg-2"
+state    real  varnce_rt_2_zm          ikjf    pdf_params_zm_CLUBB       1    -    rusd    "varnce_rt_2_zm_CLUBB"          "Variance of r_t (2nd PDF component)"                   "kg2 kg-2"
+state    real  thl_1_zm                ikjf    pdf_params_zm_CLUBB       1    -    rusd    "thl_1_zm_CLUBB"                "Mean of th_l (1st PDF component)"                      "K"
+state    real  thl_2_zm                ikjf    pdf_params_zm_CLUBB       1    -    rusd    "thl_2_zm_CLUBB"                "Mean of th_l (2nd PDF component)"                      "K"
+state    real  varnce_thl_1_zm         ikjf    pdf_params_zm_CLUBB       1    -    rusd    "varnce_thl_1_zm_CLUBB"         "Variance of th_l (1st PDF component)"                  "K2"
+state    real  varnce_thl_2_zm         ikjf    pdf_params_zm_CLUBB       1    -    rusd    "varnce_thl_2_zm_CLUBB"         "Variance of th_l (2nd PDF component)"                  "K2"
+state    real  corr_w_rt_1_zm          ikjf    pdf_params_zm_CLUBB       1    -    rusd    "corr_w_rt_1_zm_CLUBB"          "Correlation of w and r_t (1st PDF component)"          ""
+state    real  corr_w_rt_2_zm          ikjf    pdf_params_zm_CLUBB       1    -    rusd    "corr_w_rt_2_zm_CLUBB"          "Correlation of w and r_t (2nd PDF component)"          ""
+state    real  corr_w_thl_1_zm         ikjf    pdf_params_zm_CLUBB       1    -    rusd    "corr_w_thl_1_zm_CLUBB"         "Correlation of w and th_l (1st PDF component)"         ""
+state    real  corr_w_thl_2_zm         ikjf    pdf_params_zm_CLUBB       1    -    rusd    "corr_w_thl_2_zm_CLUBB"         "Correlation of w and th_l (2nd PDF component)"         ""
+state    real  corr_rt_thl_1_zm        ikjf    pdf_params_zm_CLUBB       1    -    rusd    "corr_rt_thl_1_zm_CLUBB"        "Correlation of r_t and th_l (1st PDF component)"       ""
+state    real  corr_rt_thl_2_zm        ikjf    pdf_params_zm_CLUBB       1    -    rusd    "corr_rt_thl_2_zm_CLUBB"        "Correlation of r_t and th_l (2nd PDF component)"       ""
+state    real  alpha_thl_zm            ikjf    pdf_params_zm_CLUBB       1    -    rusd    "alpha_thl_zm_CLUBB"            "Factor relating to normalized variance for th_l"       ""
+state    real  alpha_rt_zm             ikjf    pdf_params_zm_CLUBB       1    -    rusd    "alpha_rt_zm_CLUBB"             "Factor relating to normalized variance for r_t"        ""
+state    real  crt_1_zm                ikjf    pdf_params_zm_CLUBB       1    -    rusd    "crt_1_zm_CLUBB"                "r_t coefficient in chi/eta eqns. (1st PDF comp.)"      ""
+state    real  crt_2_zm                ikjf    pdf_params_zm_CLUBB       1    -    rusd    "crt_2_zm_CLUBB"                "r_t coefficient in chi/eta eqns. (2nd PDF comp.)"      ""
+state    real  cthl_1_zm               ikjf    pdf_params_zm_CLUBB       1    -    rusd    "cthl_1_zm_CLUBB"               "th_l coefficient in chi/eta eqns. (1st PDF comp.)"     "kg kg-1 K-1"
+state    real  cthl_2_zm               ikjf    pdf_params_zm_CLUBB       1    -    rusd    "cthl_2_zm_CLUBB"               "th_l coefficient in chi/eta eqns. (2nd PDF comp.)"     "kg kg-1 K-1"
+state    real  chi_1_zm                ikjf    pdf_params_zm_CLUBB       1    -    rusd    "chi_1_zm_CLUBB"                "Mean of chi (1st PDF component)"                       "kg kg-1"
+state    real  chi_2_zm                ikjf    pdf_params_zm_CLUBB       1    -    rusd    "chi_2_zm_CLUBB"                "Mean of chi (2nd PDF component)"                       "kg kg-1"
+state    real  stdev_chi_1_zm          ikjf    pdf_params_zm_CLUBB       1    -    rusd    "stdev_chi_1_zm_CLUBB"          "Standard deviation of chi (1st PDF component)"         "kg kg-1"
+state    real  stdev_chi_2_zm          ikjf    pdf_params_zm_CLUBB       1    -    rusd    "stdev_chi_2_zm_CLUBB"          "Standard deviation of chi (2nd PDF component)"         "kg kg-1"
+state    real  stdev_eta_1_zm          ikjf    pdf_params_zm_CLUBB       1    -    rusd    "stdev_eta_1_zm_CLUBB"          "Standard deviation of eta (1st PDF component)"         "kg kg-1"
+state    real  stdev_eta_2_zm          ikjf    pdf_params_zm_CLUBB       1    -    rusd    "stdev_eta_2_zm_CLUBB"          "Standard deviation of eta (2nd PDF component)"         "kg kg-1"
+state    real  covar_chi_eta_1_zm      ikjf    pdf_params_zm_CLUBB       1    -    rusd    "covar_chi_eta_1_zm_CLUBB"      "Covariance of chi and eta (1st PDF component)"         "kg2 kg-2"
+state    real  covar_chi_eta_2_zm      ikjf    pdf_params_zm_CLUBB       1    -    rusd    "covar_chi_eta_2_zm_CLUBB"      "Covariance of chi and eta (2nd PDF component)"         "kg2 kg-2"
+state    real  corr_w_chi_1_zm         ikjf    pdf_params_zm_CLUBB       1    -    rusd    "corr_w_chi_1_zm_CLUBB"         "Correlation of w and chi (1st PDF component)"          ""
+state    real  corr_w_chi_2_zm         ikjf    pdf_params_zm_CLUBB       1    -    rusd    "corr_w_chi_2_zm_CLUBB"         "Correlation of w and chi (2nd PDF component)"          ""
+state    real  corr_w_eta_1_zm         ikjf    pdf_params_zm_CLUBB       1    -    rusd    "corr_w_eta_1_zm_CLUBB"         "Correlation of w and eta (1st PDF component)"          ""
+state    real  corr_w_eta_2_zm         ikjf    pdf_params_zm_CLUBB       1    -    rusd    "corr_w_eta_2_zm_CLUBB"         "Correlation of w and eta (2nd PDF component)"          ""
+state    real  corr_chi_eta_1_zm       ikjf    pdf_params_zm_CLUBB       1    -    rusd    "corr_chi_eta_1_zm_CLUBB"       "Correlation of chi and eta (1st PDF component)"        ""
+state    real  corr_chi_eta_2_zm       ikjf    pdf_params_zm_CLUBB       1    -    rusd    "corr_chi_eta_2_zm_CLUBB"       "Correlation of chi and eta (2nd PDF component)"        ""
+state    real  rsatl_1_zm              ikjf    pdf_params_zm_CLUBB       1    -    rusd    "rsatl_1_zm_CLUBB"              "Saturation mixing ratio r_sat(mu_Tl_1,p)"              "kg kg-1"
+state    real  rsatl_2_zm              ikjf    pdf_params_zm_CLUBB       1    -    rusd    "rsatl_2_zm_CLUBB"              "Saturation mixing ratio r_sat(mu_Tl_2,p)"              "kg kg-1"
+state    real  rc_1_zm                 ikjf    pdf_params_zm_CLUBB       1    -    rusd    "rc_1_zm_CLUBB"                 "Mean of r_c (1st PDF component)"                       "kg kg-1"
+state    real  rc_2_zm                 ikjf    pdf_params_zm_CLUBB       1    -    rusd    "rc_2_zm_CLUBB"                 "Mean of r_c (2nd PDF component)"                       "kg kg-1"
+state    real  cloud_frac_1_zm         ikjf    pdf_params_zm_CLUBB       1    -    rusd    "cloud_frac_1_zm_CLUBB"         "Cloud fraction (1st PDF component)"                    ""
+state    real  cloud_frac_2_zm         ikjf    pdf_params_zm_CLUBB       1    -    rusd    "cloud_frac_2_zm_CLUBB"         "Cloud fraction (2nd PDF component)"                    ""
+state    real  mixt_frac_zm            ikjf    pdf_params_zm_CLUBB       1    -    rusd    "mixt_frac_zm_CLUBB"            "Weight of 1st PDF component (Sk_w dependent)"          ""
+state    real  ice_supersat_frac_1_zm  ikjf    pdf_params_zm_CLUBB       1    -    rusd    "ice_supersat_frac_1_zm_CLUBB"  "Ice supersaturation fraction (1st PDF component)"      ""
+state    real  ice_supersat_frac_2_zm  ikjf    pdf_params_zm_CLUBB       1    -    rusd    "ice_supersat_frac_2_zm_CLUBB"  "Ice supersaturation fraction (2nd PDF component)"      ""
+# CLUBB variable that needs to be output from the CLUBB parameterization to the rest of WRF for further use.
+state    real  wprcp_sgs            ikj              misc    1    Z    h        "wprcp_sgs"            "CLUBB subgrid-scale cloud water (rc) flux"              "m s-1 kg kg-1"
+# CLUBB variables added for input to the radiation scheme  -- ldgrant July 2011
+state    real  cldcov_CLUBB         ikj              misc    1    -    rh       "cldcov_CLUBB"         "CLUBB cloud cover"                                      ""
+state    real  rcm_lyr_CLUBB        ikj              misc    1    -    rh       "rcm_lyr_CLUBB"        "CLUBB rcm in cloud layer"                               "kg kg-1"
+# Variable related to CLUBB that is diagnosed and used outside of the CLUBB parameterization source code.
+state    real  wpthp_sgs            ikj              misc    1    Z    h        "wpthp_sgs"            "CLUBB subgrid-scale theta-v flux"                       "m s-1 K"
+#-------
+endif #/*CLUBB*/
+
+ifdef SILHS
+#------- Added for the CLUBB subcolumn generator.
+state    real  th_lh      ikj{nmc}     misc        1         -      h    "THETA_LH"  "Pot. temp. from LH"  "K"
+state    real  w_lh       ikj{nmc}     misc        1         Z      h    "W_LH"      "Vertical velocity from LH"  "m/s"
+state    real  qv_lh      ikj{nmc}     misc        1         -      h    "QVAPOR_LH" "Water vapor mixing ratio from LH"  "kg kg-1"
+state    real  qc_lh      ikj{nmc}     misc        1         -      h    "QCLOUD_LH" "Cloud water mixing ratio from LH"  "kg kg-1"
+state    real  qr_lh      ikj{nmc}     misc        1         -      h    "QRAIN_LH"  "Rain water mixing ratio from LH"  "kg kg-1"
+state    real  qi_lh      ikj{nmc}     misc        1         -      h    "QICE_LH"   "Ice water mixing ratio from LH"  "kg kg-1"
+state    real  qs_lh      ikj{nmc}     misc        1         -      h    "QSNOW_LH"  "Snow water mixing ratio from LH"  "kg kg-1"
+state    real  qg_lh      ikj{nmc}     misc        1         -      h    "QGRAUP_LH" "Graupel water mixing ratio from LH"  "kg kg-1"
+state    real  qndrop_lh  ikj{nmc}     misc        1         -      h    "QNDROP_LH" "Cloud droplet number conc. from LH"  "count kg-1"
+state    real  qnr_lh     ikj{nmc}     misc        1         -      h    "QNRAIN_LH" "Rain number conc. from LH"  "count kg-1"
+state    real  qni_lh     ikj{nmc}     misc        1         -      h    "QNICE_LH"  "Ice number conc. from LH"  "count kg-1"
+state    real  qns_lh     ikj{nmc}     misc        1         -      h    "QNSNOW_LH" "Snow number conc. from LH"  "count kg-1"
+state    real  qng_lh     ikj{nmc}     misc        1         -      h    "QNGRAUP_LH"  "Graupel number conc. from LH"  "count kg-1"
+#-------
+state    real  weights_lh ikj{nmc}     misc        1         -      h    "SAMPLE_WEIGHTS_LH"   "Weights for cloud-weighted sampling" "count"
+#------
+state    real  th_lh_mc     ikj	       misc        1         -      h    "THETA_LH_MC"  "LH est. of change in potential temp."  "K s-1"
+state    real  qv_lh_mc     ikj        misc        1         -      h    "QVAPOR_LH_MC" "LH est. of change in water vapor mix. rat."  "kg/kg/s"
+state    real  qc_lh_mc     ikj        misc        1         -      h    "QCLOUD_LH_MC" "LH est. of change in cloud water mix. rat."  "kg/kg/s"
+state    real  qr_lh_mc     ikj        misc        1         -      h    "QRAIN_LH_MC"  "LH est. of change in rain water mix. rat."  "kg/kg/s"
+state    real  qi_lh_mc     ikj        misc        1         -      h    "QICE_LH_MC"   "LH est. of change in ice water mix. rat."  "kg/kg/s"
+state    real  qs_lh_mc     ikj        misc        1         -      h    "QSNOW_LH_MC"  "LH est. of change in snow water mix. rat."  "kg/kg/s"
+state    real  qg_lh_mc     ikj        misc        1         -      h    "QGRAUP_LH_MC" "LH est. of change in graup. water mix. rat."  "kg/kg-1 s-1"
+state    real  qndrop_lh_mc ikj        misc        1         -      h    "QNDROP_LH_MC" "LH est. of change in cloud drop num conc."  "count/kg/s"
+state    real  qnr_lh_mc    ikj        misc        1         -      h    "QNRAIN_LH_MC" "LH est. of change in rain num conc."  "count/kg/s"
+state    real  qni_lh_mc    ikj        misc        1         -      h    "QNICE_LH_MC"  "LH est. of change in ice num conc."  "count/kg/s"
+state    real  qns_lh_mc    ikj        misc        1         -      h    "QNSNOW_LH_MC" "LH est. of change in snow num conc."  "count/kg/s"
+state    real  qng_lh_mc    ikj        misc        1         -      h    "QNGRAUP_LH_MC" "LH est. of change in graupel num conc."  "count/kg/s"
+state    integer lh_seed    ij{lens}   misc        1         -      r    "lh_seed" "Seed of the random number gen. for SILHS" ""
+state    integer lh_seed_len -         misc        1         -      r    "lh_seed_len" "Length of the seed for SILHS" ""
+endif #/*SILHS*/      
+
+                                             
+ifdef ESRL
+state    real  opdt             ij      misc        1         -      rh02       "OPD"                 "optical depth"
+state    real  rainrtk         ikj      misc        1         -      rh02     "rainr"                 "rainrate at all levels for 2-m scheme"                  "mm day-1"                                               
+endif #/*ESRL*/
+ifdef CLUBB
+rconfig   integer clubb_debug_level       namelist,time_control         1              2      -    "clubb_debug_level" "Debug level of CLUBB" ""
+endif # CLUBB
+ifdef CLUBBSTATS
+rconfig   integer clubb_i_sample_col      namelist,time_control         1              0      -    "clubb_i_sample_col" "i-coordinate of the outputted CLUBB statistics column" ""  
+rconfig   integer clubb_j_sample_col      namelist,time_control         1              0      -    "clubb_j_sample_col" "j-coordinate of the outputted CLUBB statistics column" ""  
+endif # CLUBBSTATS
+ifdef CLUBB
+rconfig   real    ncm_initial             namelist,physics      1             100.     -    "Ncm_initial" "Initial value of Ncm in Morrison microphsics" "count/cc"
+rconfig   logical l_use_cldcov_rcm_lyr    namelist,physics      1             .true.   -    "l_use_cldcov_rcm_lyr" "If true use CLUBB's cloud fraction and rcm_in_layer in the radiation scheme" ""
+rconfig   logical l_use_precip_frac       namelist,physics      1             .false.  -    "" "" ""
+rconfig   logical l_use_hf_driver         namelist,physics      1             .false.  -    "" "" ""
+rconfig   logical l_const_Nc_in_cloud     namelist,physics      1             .false.  -    "" "" ""
+endif # CLUBB
+ifdef SILHS
+rconfig   integer lh_microphys_calls      namelist,physics      1              2       h    "lh_microphys_calls" "number of sample points for the microphysics" ""
+rconfig   integer lh_microphys_type       namelist,physics      1              3       h    "lh_microphys_type"  "Option to set " "lh_microphys_type to either lh_microphys_interactive, lh_microphys_non_interactive or lh_microphys_disabled"
+endif # SILHS
+ifdef ESRL
+package   feingold2m     mp_physics==18              -             moist:qv,qc,qr,eta0;scalar:ssr,qnn,qnc,qnr
+endif #/*ESRL*/
+ifdef CLUBB
+#------- Added for testing CLUBB with passive qv and passive qc
+package   passiveqvqc   mp_physics==50               -             moist:qv,qc
+#-------
+endif #/*CLUBB*/
+ifdef ESRL
+package   feingold2m_dfi     mp_physics_dfi==18      -             dfi_moist:dfi_qv,dfi_qc,dfi_qr,dfi_eta0;dfi_scalar:dfi_ssr,dfi_qnn,dfi_qnc,dfi_qnr
+endif #/*ESRL*/
+ifdef WRFLES
+package   dycsimple     ra_lw_physics==18            -             -
+endif #/*WRFLES*/
+ifdef TESTCASES
+#------- Added for TESTCASES in order to set surface fluxes.
+package   testcases_sfc  sf_sfclay_physics==40       -             -
+#-------
+endif #/*TESTCASES*
+ifdef CLUBB
+#------- Added for the CLUBB PBL parameterization.
+package   clubbscheme    bl_pbl_physics==25          -             pdf_params_CLUBB:w_1,w_2,varnce_w_1,varnce_w_2,rt_1,rt_2,varnce_rt_1,varnce_rt_2,thl_1,thl_2,varnce_thl_1,varnce_thl_2,corr_w_rt_1,corr_w_rt_2,corr_w_thl_1,corr_w_thl_2,corr_rt_thl_1,corr_rt_thl_2,alpha_thl,alpha_rt,crt_1,crt_2,cthl_1,cthl_2,chi_1,chi_2,stdev_chi_1,stdev_chi_2,stdev_eta_1,stdev_eta_2,covar_chi_eta_1,covar_chi_eta_2,corr_w_chi_1,corr_w_chi_2,corr_w_eta_1,corr_w_eta_2,corr_chi_eta_1,corr_chi_eta_2,rsatl_1,rsatl_2,rc_1,rc_2,cloud_frac_1,cloud_frac_2,mixt_frac,ice_supersat_frac_1,ice_supersat_frac_2;pdf_params_zm_CLUBB:w_1_zm,w_2_zm,varnce_w_1_zm,varnce_w_2_zm,rt_1_zm,rt_2_zm,varnce_rt_1_zm,varnce_rt_2_zm,thl_1_zm,thl_2_zm,varnce_thl_1_zm,varnce_thl_2_zm,corr_w_rt_1_zm,corr_w_rt_2_zm,corr_w_thl_1_zm,corr_w_thl_2_zm,corr_rt_thl_1_zm,corr_rt_thl_2_zm,alpha_thl_zm,alpha_rt_zm,crt_1_zm,crt_2_zm,cthl_1_zm,cthl_2_zm,chi_1_zm,chi_2_zm,stdev_chi_1_zm,stdev_chi_2_zm,stdev_eta_1_zm,stdev_eta_2_zm,covar_chi_eta_1_zm,covar_chi_eta_2_zm,corr_w_chi_1_zm,corr_w_chi_2_zm,corr_w_eta_1_zm,corr_w_eta_2_zm,corr_chi_eta_1_zm,corr_chi_eta_2_zm,rsatl_1_zm,rsatl_2_zm,rc_1_zm,rc_2_zm,cloud_frac_1_zm,cloud_frac_2_zm,mixt_frac_zm,ice_supersat_frac_1_zm,ice_supersat_frac_2_zm;state:wpthlp_sgs,wprtp_sgs,wp2_sgs,wp3_sgs,rtp2_sgs,thlp2_sgs,rtpthlp_sgs,upwp_sgs,vpwp_sgs,up2_sgs,vp2_sgs,rcm_CLUBB,cf_CLUBB,wpthvp_sgs,wp2thvp_sgs,rtpthvp_sgs,thlpthvp_sgs,wprcp_sgs,cldcov_CLUBB,rcm_lyr_CLUBB,wpthp_sgs
+#-------
+endif #/*CLUBB*/
+ifdef SILHS
+package   silhs_active   lh_microphys_type==1        -             state:th_lh,w_lh,qv_lh,qc_lh,qr_lh,qi_lh,qs_lh,qndrop_lh,qnr_lh,qni_lh,qns_lh,weights_lh,th_lh_mc,qv_lh_mc,qc_lh_mc,qr_lh_mc,qi_lh_mc,qs_lh_mc,qg_lh_mc,qndrop_lh_mc,qnr_lh_mc,qni_lh_mc,qns_lh_mc,qng_lh_mc,lh_seed,lh_seed_len
+endif #/*SILHS*/
+ifdef SILHS
+package   silhs_noninter lh_microphys_type==2        -             state:th_lh,w_lh,qv_lh,qc_lh,qr_lh,qi_lh,qs_lh,qndrop_lh,qnr_lh,qni_lh,qns_lh,weights_lh,th_lh_mc,qv_lh_mc,qc_lh_mc,qr_lh_mc,qi_lh_mc,qs_lh_mc,qg_lh_mc,qndrop_lh_mc,qnr_lh_mc,qni_lh_mc,qns_lh_mc,qng_lh_mc,lh_seed,lh_seed_len
+endif #/*SILHS*/
+
+ifdef TESTCASES
+#------- Added for TESTCASES in order to identify and to impose large-scale forcings, radiation, and geostrophic winds.
+package   bomexscheme    cu_physics==22              -             -
+package   armscheme      cu_physics==24              -             -
+package   firescheme     cu_physics==26              -             -
+package   atexscheme     cu_physics==28              -             -
+package   wangarascheme  cu_physics==30              -             -
+#-------
+endif #/*TESTCASES*/

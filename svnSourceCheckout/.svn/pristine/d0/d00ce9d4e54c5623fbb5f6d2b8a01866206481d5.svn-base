@@ -1,0 +1,19 @@
+#!/bin/csh -f
+
+# LSF batch script to run WRF-CLUBB
+#BSUB -J run_wrf
+#BSUB -P <PNR>
+#BSUB -n <NUMPROC>
+#BSUB -o wrf.log.output.%J
+#BSUB -e wrf.log.error.%J
+#BSUB -W <RUNTIME>
+#BSUB -q <QUEUE>
+#BSUB -u $(whoami)@uwm.edu
+#BSUB -N
+#BSUB -B
+# #BSUB -R "span[ptile=16]"
+
+mpirun.lsf ./wrf.exe
+
+exit
+

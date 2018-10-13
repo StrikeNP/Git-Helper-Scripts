@@ -1,0 +1,1096 @@
+unifdef: ../clubb_workspace/wrf/WRF/phys/module_ra_HWRF.F: 360: unterminated char literal
+unifdef: output may be truncated
+Processing file: ../clubb_workspace/wrf/WRF/phys/module_ra_HWRF.F
+unifdef: ../clubb_workspace/wrf/WRF/phys/module_cam_physconst.F: 28: unterminated char literal
+unifdef: output may be truncated
+Processing file: ../clubb_workspace/wrf/WRF/phys/module_cam_physconst.F
+unifdef: ../clubb_workspace/wrf/WRF/phys/module_ra_goddard.F: 739: unterminated char literal
+unifdef: output may be truncated
+Processing file: ../clubb_workspace/wrf/WRF/phys/module_ra_goddard.F
+Processing file: ../clubb_workspace/wrf/WRF/phys/module_bl_boulac.F
+Processing file: ../clubb_workspace/wrf/WRF/phys/module_gfs_physcons.F
+Processing file: ../clubb_workspace/wrf/WRF/phys/module_bl_ysu.F
+unifdef: ../clubb_workspace/wrf/WRF/phys/module_sf_slab.F: 77: unterminated char literal
+unifdef: output may be truncated
+Processing file: ../clubb_workspace/wrf/WRF/phys/module_sf_slab.F
+unifdef: ../clubb_workspace/wrf/WRF/phys/module_ra_cam_support.F: 182: unterminated char literal
+unifdef: output may be truncated
+Processing file: ../clubb_workspace/wrf/WRF/phys/module_ra_cam_support.F
+unifdef: ../clubb_workspace/wrf/WRF/phys/module_physics_init.F: 296: unterminated char literal (#if line 268 depth 1)
+unifdef: output may be truncated
+Processing file: ../clubb_workspace/wrf/WRF/phys/module_physics_init.F
+unifdef: ../clubb_workspace/wrf/WRF/phys/module_mp_gsfcgce.F: 311: unterminated char literal
+unifdef: output may be truncated
+Processing file: ../clubb_workspace/wrf/WRF/phys/module_mp_gsfcgce.F
+unifdef: ../clubb_workspace/wrf/WRF/phys/module_cu_osas.F: 9: unterminated char literal
+unifdef: output may be truncated
+Processing file: ../clubb_workspace/wrf/WRF/phys/module_cu_osas.F
+unifdef: ../clubb_workspace/wrf/WRF/phys/module_fddaobs_rtfdda.F: 701: unterminated char literal (#if line 514 depth 1)
+unifdef: output may be truncated
+Processing file: ../clubb_workspace/wrf/WRF/phys/module_fddaobs_rtfdda.F
+unifdef: ../clubb_workspace/wrf/WRF/phys/module_radiation_driver.F: 298: unterminated char literal
+unifdef: output may be truncated
+Processing file: ../clubb_workspace/wrf/WRF/phys/module_radiation_driver.F
+unifdef: ../clubb_workspace/wrf/WRF/phys/module_shallowcu_driver.F: 337: unterminated char literal
+unifdef: output may be truncated
+Processing file: ../clubb_workspace/wrf/WRF/phys/module_shallowcu_driver.F
+Processing file: ../clubb_workspace/wrf/WRF/phys/module_ra_hs.F
+unifdef: ../clubb_workspace/wrf/WRF/phys/module_cu_nsas.F: 387: unterminated string literal
+unifdef: output may be truncated
+Processing file: ../clubb_workspace/wrf/WRF/phys/module_cu_nsas.F
+unifdef: ../clubb_workspace/wrf/WRF/phys/module_mp_kessler.F: 87: unterminated char literal (#if line 77 depth 1)
+unifdef: output may be truncated
+Processing file: ../clubb_workspace/wrf/WRF/phys/module_mp_kessler.F
+unifdef: ../clubb_workspace/wrf/WRF/phys/module_cu_bmj.F: 261: unterminated char literal
+unifdef: output may be truncated
+Processing file: ../clubb_workspace/wrf/WRF/phys/module_cu_bmj.F
+unifdef: ../clubb_workspace/wrf/WRF/phys/module_sf_mynn.F: 104: unterminated char literal
+unifdef: output may be truncated
+Processing file: ../clubb_workspace/wrf/WRF/phys/module_sf_mynn.F
+Processing file: ../clubb_workspace/wrf/WRF/phys/module_ra_dyclw.F
+Processing file: ../clubb_workspace/wrf/WRF/phys/module_cam_constituents.F
+unifdef: ../clubb_workspace/wrf/WRF/phys/module_cumulus_driver.F: 502: unterminated char literal (#if line 498 depth 1)
+unifdef: output may be truncated
+Processing file: ../clubb_workspace/wrf/WRF/phys/module_cumulus_driver.F
+Processing file: ../clubb_workspace/wrf/WRF/phys/module_fdda_psufddagd.F
+Processing file: ../clubb_workspace/wrf/WRF/phys/module_cam_upper_bc.F
+unifdef: ../clubb_workspace/wrf/WRF/phys/module_bl_camuwpbl_driver.F: 2: unterminated char literal
+unifdef: output may be truncated
+Processing file: ../clubb_workspace/wrf/WRF/phys/module_bl_camuwpbl_driver.F
+unifdef: ../clubb_workspace/wrf/WRF/phys/module_mp_etanew.F: 136: unterminated char literal
+unifdef: output may be truncated
+Processing file: ../clubb_workspace/wrf/WRF/phys/module_mp_etanew.F
+unifdef: ../clubb_workspace/wrf/WRF/phys/module_sf_urban.F: 51: unterminated char literal
+unifdef: output may be truncated
+Processing file: ../clubb_workspace/wrf/WRF/phys/module_sf_urban.F
+unifdef: ../clubb_workspace/wrf/WRF/phys/module_ra_cam.F: 8: unterminated char literal
+unifdef: output may be truncated
+Processing file: ../clubb_workspace/wrf/WRF/phys/module_ra_cam.F
+Processing file: ../clubb_workspace/wrf/WRF/phys/module_bl_gwdo.F
+unifdef: ../clubb_workspace/wrf/WRF/phys/module_cu_gd.F: 4519: unterminated char literal
+unifdef: output may be truncated
+Processing file: ../clubb_workspace/wrf/WRF/phys/module_cu_gd.F
+Processing file: ../clubb_workspace/wrf/WRF/phys/module_quadratic.F
+Processing file: ../clubb_workspace/wrf/WRF/phys/module_fr_sfire_driver.F
+unifdef: ../clubb_workspace/wrf/WRF/phys/module_mp_lin.F: 2476: unterminated char literal
+unifdef: output may be truncated
+Processing file: ../clubb_workspace/wrf/WRF/phys/module_mp_lin.F
+Processing file: ../clubb_workspace/wrf/WRF/phys/module_sf_bem.F
+Processing file: ../clubb_workspace/wrf/WRF/phys/module_fddagd_driver.F
+unifdef: ../clubb_workspace/wrf/WRF/phys/module_sf_ruclsm.F: 1105: unterminated char literal
+unifdef: output may be truncated
+Processing file: ../clubb_workspace/wrf/WRF/phys/module_sf_ruclsm.F
+Processing file: ../clubb_workspace/wrf/WRF/phys/module_gfs_machine.F
+Processing file: ../clubb_workspace/wrf/WRF/phys/module_mp_wsm6.F
+Processing file: ../clubb_workspace/wrf/WRF/phys/module_sf_idealscmsfclay.F
+Processing file: ../clubb_workspace/wrf/WRF/phys/module_ra_sw.F
+Processing file: ../clubb_workspace/wrf/WRF/phys/module_fr_sfire_model.F
+Processing file: ../clubb_workspace/wrf/WRF/phys/module_mp_wsm3_accel.F
+unifdef: ../clubb_workspace/wrf/WRF/phys/module_mp_feingold2m.F: 1026: unterminated char literal (#if line 4 depth 1)
+unifdef: output may be truncated
+Processing file: ../clubb_workspace/wrf/WRF/phys/module_mp_feingold2m.F
+unifdef: ../clubb_workspace/wrf/WRF/phys/module_cu_g3.F: 137: unterminated char literal (#if line 133 depth 1)
+unifdef: output may be truncated
+Processing file: ../clubb_workspace/wrf/WRF/phys/module_cu_g3.F
+unifdef: ../clubb_workspace/wrf/WRF/phys/module_mp_morr_two_moment.F: 645: unterminated char literal (#if line 635 depth 1)
+unifdef: output may be truncated
+Processing file: ../clubb_workspace/wrf/WRF/phys/module_mp_morr_two_moment.F
+unifdef: ../clubb_workspace/wrf/WRF/phys/module_mp_sbu_ylin.F: 323: unterminated char literal
+unifdef: output may be truncated
+Processing file: ../clubb_workspace/wrf/WRF/phys/module_mp_sbu_ylin.F
+Processing file: ../clubb_workspace/wrf/WRF/phys/module_cam_cldwat.F
+Processing file: ../clubb_workspace/wrf/WRF/phys/module_fr_sfire_util.F
+Processing file: ../clubb_workspace/wrf/WRF/phys/module_bl_mynn.F
+unifdef: ../clubb_workspace/wrf/WRF/phys/module_cu_sas.F: 15: unterminated char literal (#if line 14 depth 1)
+unifdef: output may be truncated
+Processing file: ../clubb_workspace/wrf/WRF/phys/module_cu_sas.F
+unifdef: ../clubb_workspace/wrf/WRF/phys/module_cam_wv_saturation.F: 1043: unterminated char literal (#if line 777 depth 1)
+unifdef: output may be truncated
+Processing file: ../clubb_workspace/wrf/WRF/phys/module_cam_wv_saturation.F
+Processing file: ../clubb_workspace/wrf/WRF/phys/module_fr_sfire_driver_wrf.F
+unifdef: ../clubb_workspace/wrf/WRF/phys/module_cu_TestCases.F: 213: unterminated char literal (#if line 4 depth 1)
+unifdef: output may be truncated
+Processing file: ../clubb_workspace/wrf/WRF/phys/module_cu_TestCases.F
+unifdef: ../clubb_workspace/wrf/WRF/phys/module_cam_bl_diffusion_solver.F: 229: unterminated char literal
+unifdef: output may be truncated
+Processing file: ../clubb_workspace/wrf/WRF/phys/module_cam_bl_diffusion_solver.F
+unifdef: ../clubb_workspace/wrf/WRF/phys/module_cam_bl_eddy_diff.F: 15: unterminated char literal
+unifdef: output may be truncated
+Processing file: ../clubb_workspace/wrf/WRF/phys/module_cam_bl_eddy_diff.F
+Processing file: ../clubb_workspace/wrf/WRF/phys/module_cu_camuwshcu_driver.F
+unifdef: ../clubb_workspace/wrf/WRF/phys/module_sf_noahlsm.F: 153: unterminated char literal
+unifdef: output may be truncated
+Processing file: ../clubb_workspace/wrf/WRF/phys/module_sf_noahlsm.F
+unifdef: ../clubb_workspace/wrf/WRF/phys/module_mp_wsm5_accel.F: 163: unterminated char literal (#if line 160 depth 2)
+unifdef: output may be truncated
+Processing file: ../clubb_workspace/wrf/WRF/phys/module_mp_wsm5_accel.F
+Processing file: ../clubb_workspace/wrf/WRF/phys/module_sf_pxsfclay.F
+unifdef: ../clubb_workspace/wrf/WRF/phys/module_ra_gfdleta.F: 172: unterminated char literal
+unifdef: output may be truncated
+Processing file: ../clubb_workspace/wrf/WRF/phys/module_ra_gfdleta.F
+Processing file: ../clubb_workspace/wrf/WRF/phys/module_cam_error_function.F
+unifdef: ../clubb_workspace/wrf/WRF/phys/module_mp_thompson.F: 23: unterminated char literal
+unifdef: output may be truncated
+Processing file: ../clubb_workspace/wrf/WRF/phys/module_mp_thompson.F
+unifdef: ../clubb_workspace/wrf/WRF/phys/module_sf_bep_bem.F: 43: unterminated string literal
+unifdef: output may be truncated
+Processing file: ../clubb_workspace/wrf/WRF/phys/module_sf_bep_bem.F
+unifdef: ../clubb_workspace/wrf/WRF/phys/module_ra_rrtm.F: 3754: unterminated char literal
+unifdef: output may be truncated
+Processing file: ../clubb_workspace/wrf/WRF/phys/module_ra_rrtm.F
+unifdef: ../clubb_workspace/wrf/WRF/phys/module_cam_shr_const_mod.F: 30: unterminated char literal
+unifdef: output may be truncated
+Processing file: ../clubb_workspace/wrf/WRF/phys/module_cam_shr_const_mod.F
+Processing file: ../clubb_workspace/wrf/WRF/phys/module_sf_noahdrv.F
+unifdef: ../clubb_workspace/wrf/WRF/phys/module_pbl_driver.F: 468: unterminated char literal (#if line 391 depth 1)
+unifdef: output may be truncated
+Processing file: ../clubb_workspace/wrf/WRF/phys/module_pbl_driver.F
+unifdef: ../clubb_workspace/wrf/WRF/phys/module_mp_milbrandt2mom.F: 1423: unterminated char literal
+unifdef: output may be truncated
+Processing file: ../clubb_workspace/wrf/WRF/phys/module_mp_milbrandt2mom.F
+Processing file: ../clubb_workspace/wrf/WRF/phys/module_data_gocart_dust.F
+unifdef: ../clubb_workspace/wrf/WRF/phys/module_sf_bep.F: 154: unterminated char literal
+unifdef: output may be truncated
+Processing file: ../clubb_workspace/wrf/WRF/phys/module_sf_bep.F
+unifdef: ../clubb_workspace/wrf/WRF/phys/module_sf_sfclay.F: 82: unterminated char literal
+unifdef: output may be truncated
+Processing file: ../clubb_workspace/wrf/WRF/phys/module_sf_sfclay.F
+unifdef: ../clubb_workspace/wrf/WRF/phys/module_ra_rrtmg_sw.F: 203: unterminated char literal
+unifdef: output may be truncated
+Processing file: ../clubb_workspace/wrf/WRF/phys/module_ra_rrtmg_sw.F
+unifdef: ../clubb_workspace/wrf/WRF/phys/module_cu_camzm_driver.F: 386: unterminated char literal
+unifdef: output may be truncated
+Processing file: ../clubb_workspace/wrf/WRF/phys/module_cu_camzm_driver.F
+unifdef: ../clubb_workspace/wrf/WRF/phys/module_sf_myjsfc.F: 234: unterminated char literal
+unifdef: output may be truncated
+Processing file: ../clubb_workspace/wrf/WRF/phys/module_sf_myjsfc.F
+Processing file: ../clubb_workspace/wrf/WRF/phys/module_cam_gffgch.F
+Processing file: ../clubb_workspace/wrf/WRF/phys/module_wind_generic.F
+Processing file: ../clubb_workspace/wrf/WRF/phys/module_cam_support.F
+unifdef: ../clubb_workspace/wrf/WRF/phys/module_fr_sfire_phys.F: 473: unterminated char literal
+unifdef: output may be truncated
+Processing file: ../clubb_workspace/wrf/WRF/phys/module_fr_sfire_phys.F
+unifdef: ../clubb_workspace/wrf/WRF/phys/module_fddaobs_driver.F: 170: unterminated string literal
+unifdef: output may be truncated
+Processing file: ../clubb_workspace/wrf/WRF/phys/module_fddaobs_driver.F
+unifdef: ../clubb_workspace/wrf/WRF/phys/module_cu_camzm.F: 727: unterminated char literal
+unifdef: output may be truncated
+Processing file: ../clubb_workspace/wrf/WRF/phys/module_cu_camzm.F
+unifdef: ../clubb_workspace/wrf/WRF/phys/module_sf_TestCases.F: 118: unterminated char literal (#if line 2 depth 1)
+unifdef: output may be truncated
+Processing file: ../clubb_workspace/wrf/WRF/phys/module_sf_TestCases.F
+unifdef: ../clubb_workspace/wrf/WRF/phys/module_mixactivate.F: 231: unterminated char literal
+unifdef: output may be truncated
+Processing file: ../clubb_workspace/wrf/WRF/phys/module_mixactivate.F
+unifdef: ../clubb_workspace/wrf/WRF/phys/module_fr_sfire_core.F: 954: unterminated char literal (#if line 826 depth 1)
+unifdef: output may be truncated
+Processing file: ../clubb_workspace/wrf/WRF/phys/module_fr_sfire_core.F
+unifdef: ../clubb_workspace/wrf/WRF/phys/module_est_subcol_microphys_tndcy.F: 193: unterminated char literal (#if line 1 depth 1)
+unifdef: output may be truncated
+Processing file: ../clubb_workspace/wrf/WRF/phys/module_est_subcol_microphys_tndcy.F
+Processing file: ../clubb_workspace/wrf/WRF/phys/module_cam_shr_kind_mod.F
+unifdef: ../clubb_workspace/wrf/WRF/phys/module_physics_addtendc.F: 108: unterminated char literal (#if line 22 depth 1)
+unifdef: output may be truncated
+Processing file: ../clubb_workspace/wrf/WRF/phys/module_physics_addtendc.F
+Processing file: ../clubb_workspace/wrf/WRF/phys/module_cu_tiedtke.F
+unifdef: ../clubb_workspace/wrf/WRF/phys/module_cu_kf.F: 1266: unterminated char literal
+unifdef: output may be truncated
+Processing file: ../clubb_workspace/wrf/WRF/phys/module_cu_kf.F
+Processing file: ../clubb_workspace/wrf/WRF/phys/module_bl_acm.F
+Processing file: ../clubb_workspace/wrf/WRF/phys/module_progtm.F
+unifdef: ../clubb_workspace/wrf/WRF/phys/module_sf_gfdl.F: 13: unterminated char literal
+unifdef: output may be truncated
+Processing file: ../clubb_workspace/wrf/WRF/phys/module_sf_gfdl.F
+Processing file: ../clubb_workspace/wrf/WRF/phys/module_ra_gsfcsw.F
+Processing file: ../clubb_workspace/wrf/WRF/phys/module_cam_esinti.F
+unifdef: ../clubb_workspace/wrf/WRF/phys/module_sf_temfsfclay.F: 238: unterminated char literal
+unifdef: output may be truncated
+Processing file: ../clubb_workspace/wrf/WRF/phys/module_sf_temfsfclay.F
+Processing file: ../clubb_workspace/wrf/WRF/phys/module_wind_fitch.F
+Processing file: ../clubb_workspace/wrf/WRF/phys/module_microphysics_zero_out.F
+unifdef: ../clubb_workspace/wrf/WRF/phys/module_bl_myjurb.F: 326: unterminated char literal
+unifdef: output may be truncated
+Processing file: ../clubb_workspace/wrf/WRF/phys/module_bl_myjurb.F
+Processing file: ../clubb_workspace/wrf/WRF/phys/module_sf_sfcdiags_ruclsm.F
+unifdef: ../clubb_workspace/wrf/WRF/phys/module_mp_wdm6.F: 49: unterminated char literal
+unifdef: output may be truncated
+Processing file: ../clubb_workspace/wrf/WRF/phys/module_mp_wdm6.F
+Processing file: ../clubb_workspace/wrf/WRF/phys/module_sf_oml.F
+unifdef: ../clubb_workspace/wrf/WRF/phys/module_fdda_spnudging.F: 764: unterminated char literal
+unifdef: output may be truncated
+Processing file: ../clubb_workspace/wrf/WRF/phys/module_fdda_spnudging.F
+unifdef: ../clubb_workspace/wrf/WRF/phys/module_cam_molec_diff.F: 55: unterminated char literal
+unifdef: output may be truncated
+Processing file: ../clubb_workspace/wrf/WRF/phys/module_cam_molec_diff.F
+Processing file: ../clubb_workspace/wrf/WRF/phys/module_cam_trb_mtn_stress.F
+unifdef: ../clubb_workspace/wrf/WRF/phys/module_cu_kfeta.F: 1980: unterminated char literal
+unifdef: output may be truncated
+Processing file: ../clubb_workspace/wrf/WRF/phys/module_cu_kfeta.F
+Processing file: ../clubb_workspace/wrf/WRF/phys/module_sf_sstskin.F
+unifdef: ../clubb_workspace/wrf/WRF/phys/module_bl_gfs.F: 93: unterminated char literal (#if line 92 depth 1)
+unifdef: output may be truncated
+Processing file: ../clubb_workspace/wrf/WRF/phys/module_bl_gfs.F
+unifdef: ../clubb_workspace/wrf/WRF/phys/module_bl_qnsepbl.F: 311: unterminated char literal
+unifdef: output may be truncated
+Processing file: ../clubb_workspace/wrf/WRF/phys/module_bl_qnsepbl.F
+unifdef: ../clubb_workspace/wrf/WRF/phys/module_bl_clubb.F: 19: unterminated char literal (#if line 3 depth 1)
+unifdef: output may be truncated
+Processing file: ../clubb_workspace/wrf/WRF/phys/module_bl_clubb.F
+unifdef: ../clubb_workspace/wrf/WRF/phys/module_bl_temf.F: 465: unterminated char literal
+unifdef: output may be truncated
+Processing file: ../clubb_workspace/wrf/WRF/phys/module_bl_temf.F
+unifdef: ../clubb_workspace/wrf/WRF/phys/module_ra_rrtmg_lw.F: 1660: unterminated char literal
+unifdef: output may be truncated
+Processing file: ../clubb_workspace/wrf/WRF/phys/module_ra_rrtmg_lw.F
+Processing file: ../clubb_workspace/wrf/WRF/phys/module_fr_sfire_atm.F
+Processing file: ../clubb_workspace/wrf/WRF/phys/module_gocart_seasalt.F
+Processing file: ../clubb_workspace/wrf/WRF/phys/module_mp_wsm5.F
+Processing file: ../clubb_workspace/wrf/WRF/phys/module_sf_gfs.F
+Processing file: ../clubb_workspace/wrf/WRF/phys/module_sf_tmnupdate.F
+unifdef: ../clubb_workspace/wrf/WRF/phys/module_sf_qnsesfc.F: 224: unterminated char literal
+unifdef: output may be truncated
+Processing file: ../clubb_workspace/wrf/WRF/phys/module_sf_qnsesfc.F
+unifdef: ../clubb_workspace/wrf/WRF/phys/module_mp_wsm3.F: 106: unterminated char literal (#if line 96 depth 2)
+unifdef: output may be truncated
+Processing file: ../clubb_workspace/wrf/WRF/phys/module_mp_wsm3.F
+unifdef: ../clubb_workspace/wrf/WRF/phys/module_surface_driver.F: 1489: unterminated char literal (#if line 1475 depth 1)
+unifdef: output may be truncated
+Processing file: ../clubb_workspace/wrf/WRF/phys/module_surface_driver.F
+unifdef: ../clubb_workspace/wrf/WRF/phys/module_microphysics_driver.F: 330: unterminated char literal (#if line 320 depth 1)
+unifdef: output may be truncated
+Processing file: ../clubb_workspace/wrf/WRF/phys/module_microphysics_driver.F
+unifdef: ../clubb_workspace/wrf/WRF/phys/module_bl_mrf.F: 85: unterminated char literal
+unifdef: output may be truncated
+Processing file: ../clubb_workspace/wrf/WRF/phys/module_bl_mrf.F
+unifdef: ../clubb_workspace/wrf/WRF/phys/module_cu_camuwshcu.F: 132: unterminated char literal (#if line 89 depth 1)
+unifdef: output may be truncated
+Processing file: ../clubb_workspace/wrf/WRF/phys/module_cu_camuwshcu.F
+Processing file: ../clubb_workspace/wrf/WRF/phys/module_gfs_funcphys.F
+unifdef: ../clubb_workspace/wrf/WRF/phys/module_sf_pxlsm.F: 769: unterminated char literal
+unifdef: output may be truncated
+Processing file: ../clubb_workspace/wrf/WRF/phys/module_sf_pxlsm.F
+unifdef: ../clubb_workspace/wrf/WRF/phys/module_bl_myjpbl.F: 363: unterminated char literal
+unifdef: output may be truncated
+Processing file: ../clubb_workspace/wrf/WRF/phys/module_bl_myjpbl.F
+Processing file: ../clubb_workspace/wrf/WRF/phys/module_diagnostics.F
+unifdef: ../clubb_workspace/wrf/WRF/phys/module_mp_HWRF.F: 104: unterminated char literal
+unifdef: output may be truncated
+Processing file: ../clubb_workspace/wrf/WRF/phys/module_mp_HWRF.F
+unifdef: ../clubb_workspace/wrf/WRF/phys/module_mp_wdm5.F: 43: unterminated char literal
+unifdef: output may be truncated
+Processing file: ../clubb_workspace/wrf/WRF/phys/module_mp_wdm5.F
+Processing file: ../clubb_workspace/wrf/WRF/phys/module_sf_sfcdiags.F
+Processing file: ../clubb_workspace/wrf/WRF/frame/wrf_shutdown.F
+unifdef: ../clubb_workspace/wrf/WRF/frame/module_alloc_space_5.F: 10: unterminated char literal
+unifdef: output may be truncated
+Processing file: ../clubb_workspace/wrf/WRF/frame/module_alloc_space_5.F
+Processing file: ../clubb_workspace/wrf/WRF/frame/module_timing.F
+unifdef: ../clubb_workspace/wrf/WRF/frame/module_tiles.F: 210: unterminated char literal
+unifdef: output may be truncated
+Processing file: ../clubb_workspace/wrf/WRF/frame/module_tiles.F
+Processing file: ../clubb_workspace/wrf/WRF/frame/nl_set_2_routines.F
+Processing file: ../clubb_workspace/wrf/WRF/frame/wrf_debug.F
+Processing file: ../clubb_workspace/wrf/WRF/frame/nl_set_4_routines.F
+Processing file: ../clubb_workspace/wrf/WRF/frame/module_dm_stubs.F
+Processing file: ../clubb_workspace/wrf/WRF/frame/nl_set_3_routines.F
+unifdef: ../clubb_workspace/wrf/WRF/frame/module_integrate.F: 41: unterminated char literal
+unifdef: output may be truncated
+Processing file: ../clubb_workspace/wrf/WRF/frame/module_integrate.F
+unifdef: ../clubb_workspace/wrf/WRF/frame/module_statistics.F: 3108: unterminated char literal (#if line 1 depth 1)
+unifdef: output may be truncated
+Processing file: ../clubb_workspace/wrf/WRF/frame/module_statistics.F
+Processing file: ../clubb_workspace/wrf/WRF/frame/module_comm_dm_0.F
+unifdef: ../clubb_workspace/wrf/WRF/frame/module_io_quilt.F: 97: unterminated char literal (#if line 93 depth 1)
+unifdef: output may be truncated
+Processing file: ../clubb_workspace/wrf/WRF/frame/module_io_quilt.F
+unifdef: ../clubb_workspace/wrf/WRF/frame/module_alloc_space_0.F: 10: unterminated char literal
+unifdef: output may be truncated
+Processing file: ../clubb_workspace/wrf/WRF/frame/module_alloc_space_0.F
+Processing file: ../clubb_workspace/wrf/WRF/frame/module_comm_dm.F
+unifdef: ../clubb_workspace/wrf/WRF/frame/module_domain.F: 356: unterminated char literal
+unifdef: output may be truncated
+Processing file: ../clubb_workspace/wrf/WRF/frame/module_domain.F
+unifdef: ../clubb_workspace/wrf/WRF/frame/module_driver_constants.F: 84: unterminated char literal
+unifdef: output may be truncated
+Processing file: ../clubb_workspace/wrf/WRF/frame/module_driver_constants.F
+Processing file: ../clubb_workspace/wrf/WRF/frame/nl_get_1_routines.F
+unifdef: ../clubb_workspace/wrf/WRF/frame/module_configure.F: 285: unterminated char literal
+unifdef: output may be truncated
+Processing file: ../clubb_workspace/wrf/WRF/frame/module_configure.F
+unifdef: ../clubb_workspace/wrf/WRF/frame/module_alloc_space_3.F: 10: unterminated char literal
+unifdef: output may be truncated
+Processing file: ../clubb_workspace/wrf/WRF/frame/module_alloc_space_3.F
+Processing file: ../clubb_workspace/wrf/WRF/frame/nl_set_1_routines.F
+Processing file: ../clubb_workspace/wrf/WRF/frame/module_wrf_error.F
+Processing file: ../clubb_workspace/wrf/WRF/frame/nl_get_7_routines.F
+Processing file: ../clubb_workspace/wrf/WRF/frame/nl_set_6_routines.F
+Processing file: ../clubb_workspace/wrf/WRF/frame/module_domain_type.F
+Processing file: ../clubb_workspace/wrf/WRF/frame/module_streams.F
+unifdef: ../clubb_workspace/wrf/WRF/frame/module_internal_header_util.F: 119: unterminated string literal
+unifdef: output may be truncated
+Processing file: ../clubb_workspace/wrf/WRF/frame/module_internal_header_util.F
+Processing file: ../clubb_workspace/wrf/WRF/frame/nl_get_6_routines.F
+Processing file: ../clubb_workspace/wrf/WRF/frame/nl_get_3_routines.F
+unifdef: ../clubb_workspace/wrf/WRF/frame/module_alloc_space_2.F: 10: unterminated char literal
+unifdef: output may be truncated
+Processing file: ../clubb_workspace/wrf/WRF/frame/module_alloc_space_2.F
+Processing file: ../clubb_workspace/wrf/WRF/frame/nl_set_7_routines.F
+Processing file: ../clubb_workspace/wrf/WRF/frame/module_nesting.F
+Processing file: ../clubb_workspace/wrf/WRF/frame/module_comm_nesting_dm.F
+unifdef: ../clubb_workspace/wrf/WRF/frame/module_alloc_space_6.F: 10: unterminated char literal
+unifdef: output may be truncated
+Processing file: ../clubb_workspace/wrf/WRF/frame/module_alloc_space_6.F
+Processing file: ../clubb_workspace/wrf/WRF/frame/module_comm_dm_4.F
+Processing file: ../clubb_workspace/wrf/WRF/frame/nl_set_5_routines.F
+unifdef: ../clubb_workspace/wrf/WRF/frame/module_alloc_space_4.F: 10: unterminated char literal
+unifdef: output may be truncated
+Processing file: ../clubb_workspace/wrf/WRF/frame/module_alloc_space_4.F
+unifdef: ../clubb_workspace/wrf/WRF/frame/module_wrfles.F: 245: unterminated char literal (#if line 1 depth 1)
+unifdef: output may be truncated
+Processing file: ../clubb_workspace/wrf/WRF/frame/module_wrfles.F
+unifdef: ../clubb_workspace/wrf/WRF/frame/module_alloc_space_1.F: 10: unterminated char literal
+unifdef: output may be truncated
+Processing file: ../clubb_workspace/wrf/WRF/frame/module_alloc_space_1.F
+unifdef: ../clubb_workspace/wrf/WRF/frame/libmassv.F: 306: unterminated char literal (#if line 305 depth 2)
+unifdef: output may be truncated
+Processing file: ../clubb_workspace/wrf/WRF/frame/libmassv.F
+unifdef: ../clubb_workspace/wrf/WRF/frame/module_alloc_space_9.F: 10: unterminated char literal
+unifdef: output may be truncated
+Processing file: ../clubb_workspace/wrf/WRF/frame/module_alloc_space_9.F
+Processing file: ../clubb_workspace/wrf/WRF/frame/nl_get_2_routines.F
+Processing file: ../clubb_workspace/wrf/WRF/frame/xxx_template_ioapi.F
+Processing file: ../clubb_workspace/wrf/WRF/frame/nl_get_4_routines.F
+unifdef: ../clubb_workspace/wrf/WRF/frame/module_quilt_outbuf_ops.F: 41: unterminated char literal
+unifdef: output may be truncated
+Processing file: ../clubb_workspace/wrf/WRF/frame/module_quilt_outbuf_ops.F
+Processing file: ../clubb_workspace/wrf/WRF/frame/module_sm.F
+Processing file: ../clubb_workspace/wrf/WRF/frame/module_machine.F
+Processing file: ../clubb_workspace/wrf/WRF/frame/nl_get_0_routines.F
+unifdef: ../clubb_workspace/wrf/WRF/frame/module_io.F: 2522: unterminated char literal
+unifdef: output may be truncated
+Processing file: ../clubb_workspace/wrf/WRF/frame/module_io.F
+unifdef: ../clubb_workspace/wrf/WRF/frame/module_alloc_space_8.F: 10: unterminated char literal
+unifdef: output may be truncated
+Processing file: ../clubb_workspace/wrf/WRF/frame/module_alloc_space_8.F
+Processing file: ../clubb_workspace/wrf/WRF/frame/nl_access_routines.F
+Processing file: ../clubb_workspace/wrf/WRF/frame/module_comm_dm_2.F
+Processing file: ../clubb_workspace/wrf/WRF/frame/nl_get_5_routines.F
+unifdef: ../clubb_workspace/wrf/WRF/frame/module_alloc_space_7.F: 10: unterminated char literal
+unifdef: output may be truncated
+Processing file: ../clubb_workspace/wrf/WRF/frame/module_alloc_space_7.F
+Processing file: ../clubb_workspace/wrf/WRF/frame/nl_set_0_routines.F
+Processing file: ../clubb_workspace/wrf/WRF/frame/module_comm_dm_1.F
+Processing file: ../clubb_workspace/wrf/WRF/frame/module_comm_dm_3.F
+Processing file: ../clubb_workspace/wrf/WRF/dyn_nmm/module_BC_NMM.F
+unifdef: ../clubb_workspace/wrf/WRF/dyn_nmm/module_si_io_nmm.F: 708: unterminated char literal
+unifdef: output may be truncated
+Processing file: ../clubb_workspace/wrf/WRF/dyn_nmm/module_si_io_nmm.F
+Processing file: ../clubb_workspace/wrf/WRF/dyn_nmm/BUCKETS.F
+Processing file: ../clubb_workspace/wrf/WRF/dyn_nmm/module_INDX.F
+unifdef: ../clubb_workspace/wrf/WRF/dyn_nmm/module_PRECIP_ADJUST.F: 19: unterminated char literal
+unifdef: output may be truncated
+Processing file: ../clubb_workspace/wrf/WRF/dyn_nmm/module_PRECIP_ADJUST.F
+Processing file: ../clubb_workspace/wrf/WRF/dyn_nmm/module_CLDWTR.F
+unifdef: ../clubb_workspace/wrf/WRF/dyn_nmm/module_PHYSICS_CALLS.F: 471: unterminated char literal
+unifdef: output may be truncated
+Processing file: ../clubb_workspace/wrf/WRF/dyn_nmm/module_PHYSICS_CALLS.F
+Processing file: ../clubb_workspace/wrf/WRF/dyn_nmm/init_modules_nmm.F
+Processing file: ../clubb_workspace/wrf/WRF/dyn_nmm/module_MPP.F
+Processing file: ../clubb_workspace/wrf/WRF/dyn_nmm/module_BNDRY_COND.F
+Processing file: ../clubb_workspace/wrf/WRF/dyn_nmm/module_ZEROX.F
+unifdef: ../clubb_workspace/wrf/WRF/dyn_nmm/module_NEST_UTIL.F: 324: unterminated char literal (#if line 323 depth 1)
+unifdef: output may be truncated
+Processing file: ../clubb_workspace/wrf/WRF/dyn_nmm/module_NEST_UTIL.F
+Processing file: ../clubb_workspace/wrf/WRF/dyn_nmm/shift_domain_nmm.F
+Processing file: ../clubb_workspace/wrf/WRF/dyn_nmm/DSTRB.F
+unifdef: ../clubb_workspace/wrf/WRF/dyn_nmm/module_DIFFUSION_NMM.F: 52: unterminated char literal
+unifdef: output may be truncated
+Processing file: ../clubb_workspace/wrf/WRF/dyn_nmm/module_DIFFUSION_NMM.F
+unifdef: ../clubb_workspace/wrf/WRF/dyn_nmm/NMM_NEST_UTILS1.F: 4: unterminated char literal (#if line 1 depth 1)
+unifdef: output may be truncated
+Processing file: ../clubb_workspace/wrf/WRF/dyn_nmm/NMM_NEST_UTILS1.F
+unifdef: ../clubb_workspace/wrf/WRF/dyn_nmm/solve_nmm.F: 87: unterminated char literal (#if line 86 depth 1)
+unifdef: output may be truncated
+Processing file: ../clubb_workspace/wrf/WRF/dyn_nmm/solve_nmm.F
+Processing file: ../clubb_workspace/wrf/WRF/dyn_nmm/RDTEMP.F
+Processing file: ../clubb_workspace/wrf/WRF/dyn_nmm/module_IGWAVE_ADJUST.F
+unifdef: ../clubb_workspace/wrf/WRF/dyn_nmm/module_initialize_real.F: 195: unterminated char literal (#if line 193 depth 1)
+unifdef: output may be truncated
+Processing file: ../clubb_workspace/wrf/WRF/dyn_nmm/module_initialize_real.F
+unifdef: ../clubb_workspace/wrf/WRF/dyn_nmm/module_MPPINIT.F: 272: unterminated char literal
+unifdef: output may be truncated
+Processing file: ../clubb_workspace/wrf/WRF/dyn_nmm/module_MPPINIT.F
+Processing file: ../clubb_workspace/wrf/WRF/dyn_nmm/module_NONHY_DYNAM.F
+unifdef: ../clubb_workspace/wrf/WRF/dyn_nmm/module_GWD.F: 463: unterminated char literal
+unifdef: output may be truncated
+Processing file: ../clubb_workspace/wrf/WRF/dyn_nmm/module_GWD.F
+Processing file: ../clubb_workspace/wrf/WRF/dyn_nmm/module_TIMERS.F
+unifdef: ../clubb_workspace/wrf/WRF/dyn_nmm/start_domain_nmm.F: 70: unterminated char literal (#if line 69 depth 1)
+unifdef: output may be truncated
+Processing file: ../clubb_workspace/wrf/WRF/dyn_nmm/start_domain_nmm.F
+unifdef: ../clubb_workspace/wrf/WRF/dyn_nmm/module_ADVECTION.F: 750: unterminated char literal
+unifdef: output may be truncated
+Processing file: ../clubb_workspace/wrf/WRF/dyn_nmm/module_ADVECTION.F
+Processing file: ../clubb_workspace/wrf/WRF/dyn_nmm/CLTEND.F
+Processing file: ../clubb_workspace/wrf/WRF/dyn_nmm/module_CTLBLK.F
+Processing file: ../clubb_workspace/wrf/WRF/dyn_em/module_first_rk_step_part2.F
+Processing file: ../clubb_workspace/wrf/WRF/dyn_em/module_initialize_squall2d_x.F
+Processing file: ../clubb_workspace/wrf/WRF/dyn_em/module_sfs_driver.F
+unifdef: ../clubb_workspace/wrf/WRF/dyn_em/module_initialize_b_wave.F: 342: unterminated char literal
+unifdef: output may be truncated
+Processing file: ../clubb_workspace/wrf/WRF/dyn_em/module_initialize_b_wave.F
+Processing file: ../clubb_workspace/wrf/WRF/dyn_em/module_initialize_seabreeze2d_x.F
+Processing file: ../clubb_workspace/wrf/WRF/dyn_em/module_initialize_hill2d_x.F
+Processing file: ../clubb_workspace/wrf/WRF/dyn_em/module_initialize_grav2d_x.F
+unifdef: ../clubb_workspace/wrf/WRF/dyn_em/module_small_step_em.F: 554: unterminated char literal
+unifdef: output may be truncated
+Processing file: ../clubb_workspace/wrf/WRF/dyn_em/module_small_step_em.F
+Processing file: ../clubb_workspace/wrf/WRF/dyn_em/interp_domain_em.F
+Processing file: ../clubb_workspace/wrf/WRF/dyn_em/module_stoch.F
+unifdef: ../clubb_workspace/wrf/WRF/dyn_em/module_diffusion_em.F: 570: unterminated char literal
+unifdef: output may be truncated
+Processing file: ../clubb_workspace/wrf/WRF/dyn_em/module_diffusion_em.F
+Processing file: ../clubb_workspace/wrf/WRF/dyn_em/module_initialize_les.F
+Processing file: ../clubb_workspace/wrf/WRF/dyn_em/module_initialize_squall2d_y.F
+Processing file: ../clubb_workspace/wrf/WRF/dyn_em/module_positive_definite.F
+Processing file: ../clubb_workspace/wrf/WRF/dyn_em/init_modules_em.F
+Processing file: ../clubb_workspace/wrf/WRF/dyn_em/module_em.F
+unifdef: ../clubb_workspace/wrf/WRF/dyn_em/module_advect_em.F: 1164: unterminated char literal
+unifdef: output may be truncated
+Processing file: ../clubb_workspace/wrf/WRF/dyn_em/module_advect_em.F
+Processing file: ../clubb_workspace/wrf/WRF/dyn_em/nest_init_utils.F
+Processing file: ../clubb_workspace/wrf/WRF/dyn_em/shift_domain_em.F
+unifdef: ../clubb_workspace/wrf/WRF/dyn_em/module_bc_em.F: 1102: unterminated char literal
+unifdef: output may be truncated
+Processing file: ../clubb_workspace/wrf/WRF/dyn_em/module_bc_em.F
+Processing file: ../clubb_workspace/wrf/WRF/dyn_em/module_avgflx_em.F
+unifdef: ../clubb_workspace/wrf/WRF/dyn_em/module_initialize_real.F: 213: unterminated char literal (#if line 3 depth 1)
+unifdef: output may be truncated
+Processing file: ../clubb_workspace/wrf/WRF/dyn_em/module_initialize_real.F
+unifdef: ../clubb_workspace/wrf/WRF/dyn_em/module_initialize_tropical_cyclone.F: 1021: unterminated char literal
+unifdef: output may be truncated
+Processing file: ../clubb_workspace/wrf/WRF/dyn_em/module_initialize_tropical_cyclone.F
+unifdef: ../clubb_workspace/wrf/WRF/dyn_em/module_big_step_utilities_em.F: 1421: unterminated char literal
+unifdef: output may be truncated
+Processing file: ../clubb_workspace/wrf/WRF/dyn_em/module_big_step_utilities_em.F
+Processing file: ../clubb_workspace/wrf/WRF/dyn_em/couple_or_uncouple_em.F
+Processing file: ../clubb_workspace/wrf/WRF/dyn_em/module_solvedebug_em.F
+unifdef: ../clubb_workspace/wrf/WRF/dyn_em/module_polarfft.F: 488: unterminated char literal
+unifdef: output may be truncated
+Processing file: ../clubb_workspace/wrf/WRF/dyn_em/module_polarfft.F
+unifdef: ../clubb_workspace/wrf/WRF/dyn_em/module_force_scm.F: 240: unterminated char literal
+unifdef: output may be truncated
+Processing file: ../clubb_workspace/wrf/WRF/dyn_em/module_force_scm.F
+Processing file: ../clubb_workspace/wrf/WRF/dyn_em/module_sfs_nba.F
+Processing file: ../clubb_workspace/wrf/WRF/dyn_em/module_initialize_quarter_ss.F
+unifdef: ../clubb_workspace/wrf/WRF/dyn_em/start_em.F: 124: unterminated char literal
+unifdef: output may be truncated
+Processing file: ../clubb_workspace/wrf/WRF/dyn_em/start_em.F
+unifdef: ../clubb_workspace/wrf/WRF/dyn_em/module_initialize_scm_xy.F: 281: unterminated char literal
+unifdef: output may be truncated
+Processing file: ../clubb_workspace/wrf/WRF/dyn_em/module_initialize_scm_xy.F
+Processing file: ../clubb_workspace/wrf/WRF/dyn_em/module_init_utilities.F
+unifdef: ../clubb_workspace/wrf/WRF/dyn_em/adapt_timestep_em.F: 7: unterminated char literal
+unifdef: output may be truncated
+Processing file: ../clubb_workspace/wrf/WRF/dyn_em/adapt_timestep_em.F
+unifdef: ../clubb_workspace/wrf/WRF/dyn_em/module_initialize_heldsuarez.F: 142: unterminated char literal
+unifdef: output may be truncated
+Processing file: ../clubb_workspace/wrf/WRF/dyn_em/module_initialize_heldsuarez.F
+unifdef: ../clubb_workspace/wrf/WRF/dyn_em/module_first_rk_step_part1.F: 150: unterminated char literal (#if line 149 depth 1)
+unifdef: output may be truncated
+Processing file: ../clubb_workspace/wrf/WRF/dyn_em/module_first_rk_step_part1.F
+unifdef: ../clubb_workspace/wrf/WRF/dyn_em/solve_em.F: 1567: unterminated char literal
+unifdef: output may be truncated
+Processing file: ../clubb_workspace/wrf/WRF/dyn_em/solve_em.F
+unifdef: ../clubb_workspace/wrf/WRF/dyn_em/module_convtrans_prep.F: 2: unterminated char literal
+unifdef: output may be truncated
+Processing file: ../clubb_workspace/wrf/WRF/dyn_em/module_convtrans_prep.F
+Processing file: ../clubb_workspace/wrf/WRF/dyn_em/module_damping_em.F
+Processing file: ../clubb_workspace/wrf/WRF/dyn_em/module_initialize_fire.F
+Processing file: ../clubb_workspace/wrf/WRF/external/fftpack/fftpack5/msntb1.F
+Processing file: ../clubb_workspace/wrf/WRF/external/fftpack/fftpack5/rfft1f.F
+Processing file: ../clubb_workspace/wrf/WRF/external/fftpack/fftpack5/cfft2i.F
+Processing file: ../clubb_workspace/wrf/WRF/external/fftpack/fftpack5/mradfg.F
+Processing file: ../clubb_workspace/wrf/WRF/external/fftpack/fftpack5/costmb.F
+Processing file: ../clubb_workspace/wrf/WRF/external/fftpack/fftpack5/costmi.F
+Processing file: ../clubb_workspace/wrf/WRF/external/fftpack/fftpack5/sintf1.F
+Processing file: ../clubb_workspace/wrf/WRF/external/fftpack/fftpack5/cmf4kf.F
+Processing file: ../clubb_workspace/wrf/WRF/external/fftpack/fftpack5/mradb2.F
+Processing file: ../clubb_workspace/wrf/WRF/external/fftpack/fftpack5/r1f3kf.F
+Processing file: ../clubb_workspace/wrf/WRF/external/fftpack/fftpack5/cfftmb.F
+Processing file: ../clubb_workspace/wrf/WRF/external/fftpack/fftpack5/msntf1.F
+Processing file: ../clubb_workspace/wrf/WRF/external/fftpack/fftpack5/cosq1b.F
+Processing file: ../clubb_workspace/wrf/WRF/external/fftpack/fftpack5/factor.F
+Processing file: ../clubb_workspace/wrf/WRF/external/fftpack/fftpack5/cmfm1f.F
+Processing file: ../clubb_workspace/wrf/WRF/external/fftpack/fftpack5/mradb3.F
+Processing file: ../clubb_workspace/wrf/WRF/external/fftpack/fftpack5/c1fm1b.F
+Processing file: ../clubb_workspace/wrf/WRF/external/fftpack/fftpack5/cfft2b.F
+Processing file: ../clubb_workspace/wrf/WRF/external/fftpack/fftpack5/mcsqf1.F
+Processing file: ../clubb_workspace/wrf/WRF/external/fftpack/fftpack5/mcstb1.F
+Processing file: ../clubb_workspace/wrf/WRF/external/fftpack/fftpack5/sint1b.F
+Processing file: ../clubb_workspace/wrf/WRF/external/fftpack/fftpack5/rfftmf.F
+Processing file: ../clubb_workspace/wrf/WRF/external/fftpack/fftpack5/r1f4kf.F
+Processing file: ../clubb_workspace/wrf/WRF/external/fftpack/fftpack5/sintmb.F
+Processing file: ../clubb_workspace/wrf/WRF/external/fftpack/fftpack5/c1f2kb.F
+Processing file: ../clubb_workspace/wrf/WRF/external/fftpack/fftpack5/rfftf1.F
+Processing file: ../clubb_workspace/wrf/WRF/external/fftpack/fftpack5/sintmi.F
+Processing file: ../clubb_workspace/wrf/WRF/external/fftpack/fftpack5/cmf3kb.F
+Processing file: ../clubb_workspace/wrf/WRF/external/fftpack/fftpack5/sintb1.F
+Processing file: ../clubb_workspace/wrf/WRF/external/fftpack/fftpack5/r1f4kb.F
+Processing file: ../clubb_workspace/wrf/WRF/external/fftpack/fftpack5/rfftb1.F
+Processing file: ../clubb_workspace/wrf/WRF/external/fftpack/fftpack5/c1fgkb.F
+Processing file: ../clubb_workspace/wrf/WRF/external/fftpack/fftpack5/sinqmi.F
+Processing file: ../clubb_workspace/wrf/WRF/external/fftpack/fftpack5/cfftmi.F
+Processing file: ../clubb_workspace/wrf/WRF/external/fftpack/fftpack5/sintmf.F
+Processing file: ../clubb_workspace/wrf/WRF/external/fftpack/fftpack5/costb1.F
+Processing file: ../clubb_workspace/wrf/WRF/external/fftpack/fftpack5/c1fm1f.F
+Processing file: ../clubb_workspace/wrf/WRF/external/fftpack/fftpack5/mradf5.F
+Processing file: ../clubb_workspace/wrf/WRF/external/fftpack/fftpack5/sinqmb.F
+Processing file: ../clubb_workspace/wrf/WRF/external/fftpack/fftpack5/sinqmf.F
+Processing file: ../clubb_workspace/wrf/WRF/external/fftpack/fftpack5/cmf4kb.F
+Processing file: ../clubb_workspace/wrf/WRF/external/fftpack/fftpack5/cmf3kf.F
+Processing file: ../clubb_workspace/wrf/WRF/external/fftpack/fftpack5/r1fgkb.F
+Processing file: ../clubb_workspace/wrf/WRF/external/fftpack/fftpack5/mradb4.F
+Processing file: ../clubb_workspace/wrf/WRF/external/fftpack/fftpack5/sinq1f.F
+Processing file: ../clubb_workspace/wrf/WRF/external/fftpack/fftpack5/c1f3kb.F
+Processing file: ../clubb_workspace/wrf/WRF/external/fftpack/fftpack5/cmf2kb.F
+Processing file: ../clubb_workspace/wrf/WRF/external/fftpack/fftpack5/cmfm1b.F
+Processing file: ../clubb_workspace/wrf/WRF/external/fftpack/fftpack5/r1f2kf.F
+Processing file: ../clubb_workspace/wrf/WRF/external/fftpack/fftpack5/mrfti1.F
+Processing file: ../clubb_workspace/wrf/WRF/external/fftpack/fftpack5/cosqf1.F
+Processing file: ../clubb_workspace/wrf/WRF/external/fftpack/fftpack5/c1f5kb.F
+Processing file: ../clubb_workspace/wrf/WRF/external/fftpack/fftpack5/rfft1b.F
+Processing file: ../clubb_workspace/wrf/WRF/external/fftpack/fftpack5/costmf.F
+Processing file: ../clubb_workspace/wrf/WRF/external/fftpack/fftpack5/rfft1i.F
+Processing file: ../clubb_workspace/wrf/WRF/external/fftpack/fftpack5/rfftmb.F
+Processing file: ../clubb_workspace/wrf/WRF/external/fftpack/fftpack5/cosq1f.F
+Processing file: ../clubb_workspace/wrf/WRF/external/fftpack/fftpack5/cfft1f.F
+Processing file: ../clubb_workspace/wrf/WRF/external/fftpack/fftpack5/rfft2i.F
+Processing file: ../clubb_workspace/wrf/WRF/external/fftpack/fftpack5/c1f2kf.F
+Processing file: ../clubb_workspace/wrf/WRF/external/fftpack/fftpack5/cfft1b.F
+Processing file: ../clubb_workspace/wrf/WRF/external/fftpack/fftpack5/c1f4kf.F
+Processing file: ../clubb_workspace/wrf/WRF/external/fftpack/fftpack5/cosqmb.F
+Processing file: ../clubb_workspace/wrf/WRF/external/fftpack/fftpack5/mradbg.F
+Processing file: ../clubb_workspace/wrf/WRF/external/fftpack/fftpack5/mcfti1.F
+Processing file: ../clubb_workspace/wrf/WRF/external/fftpack/fftpack5/cmf2kf.F
+Processing file: ../clubb_workspace/wrf/WRF/external/fftpack/fftpack5/cfftmf.F
+Processing file: ../clubb_workspace/wrf/WRF/external/fftpack/fftpack5/cost1b.F
+Processing file: ../clubb_workspace/wrf/WRF/external/fftpack/fftpack5/c1f4kb.F
+Processing file: ../clubb_workspace/wrf/WRF/external/fftpack/fftpack5/r1f2kb.F
+Processing file: ../clubb_workspace/wrf/WRF/external/fftpack/fftpack5/r1f5kf.F
+Processing file: ../clubb_workspace/wrf/WRF/external/fftpack/fftpack5/c1f5kf.F
+Processing file: ../clubb_workspace/wrf/WRF/external/fftpack/fftpack5/sinq1i.F
+Processing file: ../clubb_workspace/wrf/WRF/external/fftpack/fftpack5/mcsqb1.F
+Processing file: ../clubb_workspace/wrf/WRF/external/fftpack/fftpack5/rfft2f.F
+Processing file: ../clubb_workspace/wrf/WRF/external/fftpack/fftpack5/cmfgkf.F
+Processing file: ../clubb_workspace/wrf/WRF/external/fftpack/fftpack5/cost1i.F
+Processing file: ../clubb_workspace/wrf/WRF/external/fftpack/fftpack5/mrftf1.F
+Processing file: ../clubb_workspace/wrf/WRF/external/fftpack/fftpack5/rfft2b.F
+Processing file: ../clubb_workspace/wrf/WRF/external/fftpack/fftpack5/r1f3kb.F
+Processing file: ../clubb_workspace/wrf/WRF/external/fftpack/fftpack5/tables.F
+Processing file: ../clubb_workspace/wrf/WRF/external/fftpack/fftpack5/costf1.F
+Processing file: ../clubb_workspace/wrf/WRF/external/fftpack/fftpack5/cosqmf.F
+Processing file: ../clubb_workspace/wrf/WRF/external/fftpack/fftpack5/cfft2f.F
+Processing file: ../clubb_workspace/wrf/WRF/external/fftpack/fftpack5/xercon.F
+Processing file: ../clubb_workspace/wrf/WRF/external/fftpack/fftpack5/rfftmi.F
+Processing file: ../clubb_workspace/wrf/WRF/external/fftpack/fftpack5/mradb5.F
+Processing file: ../clubb_workspace/wrf/WRF/external/fftpack/fftpack5/c1fgkf.F
+Processing file: ../clubb_workspace/wrf/WRF/external/fftpack/fftpack5/c1f3kf.F
+Processing file: ../clubb_workspace/wrf/WRF/external/fftpack/fftpack5/cost1f.F
+Processing file: ../clubb_workspace/wrf/WRF/external/fftpack/fftpack5/cfft1i.F
+Processing file: ../clubb_workspace/wrf/WRF/external/fftpack/fftpack5/sint1i.F
+Processing file: ../clubb_workspace/wrf/WRF/external/fftpack/fftpack5/cmf5kf.F
+Processing file: ../clubb_workspace/wrf/WRF/external/fftpack/fftpack5/mradf2.F
+Processing file: ../clubb_workspace/wrf/WRF/external/fftpack/fftpack5/cosqmi.F
+Processing file: ../clubb_workspace/wrf/WRF/external/fftpack/fftpack5/r1fgkf.F
+Processing file: ../clubb_workspace/wrf/WRF/external/fftpack/fftpack5/mrftb1.F
+Processing file: ../clubb_workspace/wrf/WRF/external/fftpack/fftpack5/sint1f.F
+Processing file: ../clubb_workspace/wrf/WRF/external/fftpack/fftpack5/cosq1i.F
+Processing file: ../clubb_workspace/wrf/WRF/external/fftpack/fftpack5/rffti1.F
+Processing file: ../clubb_workspace/wrf/WRF/external/fftpack/fftpack5/cmfgkb.F
+Processing file: ../clubb_workspace/wrf/WRF/external/fftpack/fftpack5/r1f5kb.F
+Processing file: ../clubb_workspace/wrf/WRF/external/fftpack/fftpack5/cosqb1.F
+Processing file: ../clubb_workspace/wrf/WRF/external/fftpack/fftpack5/sinq1b.F
+Processing file: ../clubb_workspace/wrf/WRF/external/fftpack/fftpack5/cmf5kb.F
+Processing file: ../clubb_workspace/wrf/WRF/external/fftpack/fftpack5/mcstf1.F
+Processing file: ../clubb_workspace/wrf/WRF/external/fftpack/fftpack5/mradf3.F
+Processing file: ../clubb_workspace/wrf/WRF/external/fftpack/fftpack5/mradf4.F
+Processing file: ../clubb_workspace/wrf/WRF/external/fftpack/fftpack5/xerfft.F
+unifdef: ../clubb_workspace/wrf/WRF/external/RSL_LITE/tfp_tester.F: 84: unterminated char literal
+unifdef: output may be truncated
+Processing file: ../clubb_workspace/wrf/WRF/external/RSL_LITE/tfp_tester.F
+unifdef: ../clubb_workspace/wrf/WRF/external/RSL_LITE/module_dm.F: 32: unterminated char literal
+unifdef: output may be truncated
+Processing file: ../clubb_workspace/wrf/WRF/external/RSL_LITE/module_dm.F
+unifdef: ../clubb_workspace/wrf/WRF/external/io_grib1/io_grib1.F: 630: unterminated char literal
+unifdef: output may be truncated
+Processing file: ../clubb_workspace/wrf/WRF/external/io_grib1/io_grib1.F
+Processing file: ../clubb_workspace/wrf/WRF/external/io_grib1/test_io_grib1.F
+Processing file: ../clubb_workspace/wrf/WRF/external/io_grib1/test_grib1_routines.F
+Processing file: ../clubb_workspace/wrf/WRF/external/io_grib2/bacio-1.3/baciof.F
+Processing file: ../clubb_workspace/wrf/WRF/external/io_grib2/grib2tbls_types.F
+Processing file: ../clubb_workspace/wrf/WRF/external/io_grib2/read_grib2map.F
+Processing file: ../clubb_workspace/wrf/WRF/external/io_grib2/test_read_grib2map.F
+Processing file: ../clubb_workspace/wrf/WRF/external/io_grib2/g2lib/jpcunpack.F
+unifdef: ../clubb_workspace/wrf/WRF/external/io_grib2/g2lib/compack.F: 213: unterminated char literal
+unifdef: output may be truncated
+Processing file: ../clubb_workspace/wrf/WRF/external/io_grib2/g2lib/compack.F
+unifdef: ../clubb_workspace/wrf/WRF/external/io_grib2/g2lib/comunpack.F: 137: unterminated char literal
+unifdef: output may be truncated
+Processing file: ../clubb_workspace/wrf/WRF/external/io_grib2/g2lib/comunpack.F
+Processing file: ../clubb_workspace/wrf/WRF/external/io_grib2/g2lib/skgb.F
+Processing file: ../clubb_workspace/wrf/WRF/external/io_grib2/g2lib/gdt2gds.F
+unifdef: ../clubb_workspace/wrf/WRF/external/io_grib2/g2lib/misspack.F: 270: unterminated char literal
+unifdef: output may be truncated
+Processing file: ../clubb_workspace/wrf/WRF/external/io_grib2/g2lib/misspack.F
+unifdef: ../clubb_workspace/wrf/WRF/external/io_grib2/g2lib/getgb2s.F: 110: unterminated char literal
+unifdef: output may be truncated
+Processing file: ../clubb_workspace/wrf/WRF/external/io_grib2/g2lib/getgb2s.F
+unifdef: ../clubb_workspace/wrf/WRF/external/io_grib2/g2lib/reduce.F: 29: unterminated char literal
+unifdef: output may be truncated
+Processing file: ../clubb_workspace/wrf/WRF/external/io_grib2/g2lib/reduce.F
+Processing file: ../clubb_workspace/wrf/WRF/external/io_grib2/g2lib/gf_unpack3.F
+unifdef: ../clubb_workspace/wrf/WRF/external/io_grib2/g2lib/gribend.F: 31: unterminated char literal
+unifdef: output may be truncated
+Processing file: ../clubb_workspace/wrf/WRF/external/io_grib2/g2lib/gribend.F
+Processing file: ../clubb_workspace/wrf/WRF/external/io_grib2/g2lib/pngunpack.F
+Processing file: ../clubb_workspace/wrf/WRF/external/io_grib2/g2lib/getlocal.F
+Processing file: ../clubb_workspace/wrf/WRF/external/io_grib2/g2lib/specpack.F
+Processing file: ../clubb_workspace/wrf/WRF/external/io_grib2/g2lib/gribmod.F
+Processing file: ../clubb_workspace/wrf/WRF/external/io_grib2/g2lib/gribcreate.F
+unifdef: ../clubb_workspace/wrf/WRF/external/io_grib2/g2lib/addgrid.F: 53: unterminated char literal
+unifdef: output may be truncated
+Processing file: ../clubb_workspace/wrf/WRF/external/io_grib2/g2lib/addgrid.F
+Processing file: ../clubb_workspace/wrf/WRF/external/io_grib2/g2lib/gf_unpack2.F
+Processing file: ../clubb_workspace/wrf/WRF/external/io_grib2/g2lib/addfield.F
+Processing file: ../clubb_workspace/wrf/WRF/external/io_grib2/g2lib/gb_info.F
+unifdef: ../clubb_workspace/wrf/WRF/external/io_grib2/g2lib/getgb2.F: 46: unterminated string literal
+unifdef: output may be truncated
+Processing file: ../clubb_workspace/wrf/WRF/external/io_grib2/g2lib/getgb2.F
+Processing file: ../clubb_workspace/wrf/WRF/external/io_grib2/g2lib/cmplxpack.F
+Processing file: ../clubb_workspace/wrf/WRF/external/io_grib2/g2lib/jpcpack.F
+Processing file: ../clubb_workspace/wrf/WRF/external/io_grib2/g2lib/drstemplates.F
+Processing file: ../clubb_workspace/wrf/WRF/external/io_grib2/g2lib/getfield.F
+Processing file: ../clubb_workspace/wrf/WRF/external/io_grib2/g2lib/simpack.F
+unifdef: ../clubb_workspace/wrf/WRF/external/io_grib2/g2lib/pack_gp.F: 10: unterminated char literal
+unifdef: output may be truncated
+Processing file: ../clubb_workspace/wrf/WRF/external/io_grib2/g2lib/pack_gp.F
+Processing file: ../clubb_workspace/wrf/WRF/external/io_grib2/g2lib/getgb2r.F
+Processing file: ../clubb_workspace/wrf/WRF/external/io_grib2/g2lib/realloc.F
+unifdef: ../clubb_workspace/wrf/WRF/external/io_grib2/g2lib/gridtemplates.F: 119: unterminated char literal
+unifdef: output may be truncated
+Processing file: ../clubb_workspace/wrf/WRF/external/io_grib2/g2lib/gridtemplates.F
+Processing file: ../clubb_workspace/wrf/WRF/external/io_grib2/g2lib/pngpack.F
+Processing file: ../clubb_workspace/wrf/WRF/external/io_grib2/g2lib/pdstemplates.F
+Processing file: ../clubb_workspace/wrf/WRF/external/io_grib2/g2lib/mkieee.F
+Processing file: ../clubb_workspace/wrf/WRF/external/io_grib2/g2lib/specunpack.F
+Processing file: ../clubb_workspace/wrf/WRF/external/io_grib2/g2lib/gbytesc.F
+Processing file: ../clubb_workspace/wrf/WRF/external/io_grib2/g2lib/getgb2l.F
+unifdef: ../clubb_workspace/wrf/WRF/external/io_grib2/g2lib/getidx.F: 28: unterminated string literal
+unifdef: output may be truncated
+Processing file: ../clubb_workspace/wrf/WRF/external/io_grib2/g2lib/getidx.F
+Processing file: ../clubb_workspace/wrf/WRF/external/io_grib2/g2lib/getg2ir.F
+Processing file: ../clubb_workspace/wrf/WRF/external/io_grib2/g2lib/gettemplates.F
+Processing file: ../clubb_workspace/wrf/WRF/external/io_grib2/g2lib/getgb2rp.F
+Processing file: ../clubb_workspace/wrf/WRF/external/io_grib2/g2lib/putgb2.F
+Processing file: ../clubb_workspace/wrf/WRF/external/io_grib2/g2lib/params.F
+Processing file: ../clubb_workspace/wrf/WRF/external/io_grib2/g2lib/getdim.F
+Processing file: ../clubb_workspace/wrf/WRF/external/io_grib2/g2lib/gf_unpack6.F
+Processing file: ../clubb_workspace/wrf/WRF/external/io_grib2/g2lib/rdieee.F
+Processing file: ../clubb_workspace/wrf/WRF/external/io_grib2/g2lib/gf_free.F
+Processing file: ../clubb_workspace/wrf/WRF/external/io_grib2/g2lib/gf_getfld.F
+Processing file: ../clubb_workspace/wrf/WRF/external/io_grib2/g2lib/getpoly.F
+Processing file: ../clubb_workspace/wrf/WRF/external/io_grib2/g2lib/gf_unpack7.F
+Processing file: ../clubb_workspace/wrf/WRF/external/io_grib2/g2lib/utest/test_g2lib.F
+Processing file: ../clubb_workspace/wrf/WRF/external/io_grib2/g2lib/ixgb2.F
+Processing file: ../clubb_workspace/wrf/WRF/external/io_grib2/g2lib/gribinfo.F
+Processing file: ../clubb_workspace/wrf/WRF/external/io_grib2/g2lib/g2grids.F
+unifdef: ../clubb_workspace/wrf/WRF/external/io_grib2/g2lib/getgb2p.F: 88: unterminated char literal
+unifdef: output may be truncated
+Processing file: ../clubb_workspace/wrf/WRF/external/io_grib2/g2lib/getgb2p.F
+Processing file: ../clubb_workspace/wrf/WRF/external/io_grib2/g2lib/getg2i.F
+Processing file: ../clubb_workspace/wrf/WRF/external/io_grib2/g2lib/gf_unpack1.F
+Processing file: ../clubb_workspace/wrf/WRF/external/io_grib2/g2lib/gf_unpack4.F
+unifdef: ../clubb_workspace/wrf/WRF/external/io_grib2/g2lib/addlocal.F: 32: unterminated char literal
+unifdef: output may be truncated
+Processing file: ../clubb_workspace/wrf/WRF/external/io_grib2/g2lib/addlocal.F
+Processing file: ../clubb_workspace/wrf/WRF/external/io_grib2/g2lib/gf_unpack5.F
+Processing file: ../clubb_workspace/wrf/WRF/external/io_grib2/g2lib/simunpack.F
+Processing file: ../clubb_workspace/wrf/WRF/external/io_grib2/io_grib2.F
+Processing file: ../clubb_workspace/wrf/WRF/external/atm_ocn/atm_comm_pom.F
+Processing file: ../clubb_workspace/wrf/WRF/external/atm_ocn/mpi_more.F
+Processing file: ../clubb_workspace/wrf/WRF/external/atm_ocn/atm_tiles.F
+Processing file: ../clubb_workspace/wrf/WRF/external/atm_ocn/atm_comm.F
+unifdef: ../clubb_workspace/wrf/WRF/external/atm_ocn/cmpcomm.F: 9: unterminated char literal (#if line 1 depth 1)
+unifdef: output may be truncated
+Processing file: ../clubb_workspace/wrf/WRF/external/atm_ocn/cmpcomm.F
+unifdef: ../clubb_workspace/wrf/WRF/external/atm_ocn/module_PATCH_QUILT.F: 182: unterminated char literal
+unifdef: output may be truncated
+Processing file: ../clubb_workspace/wrf/WRF/external/atm_ocn/module_PATCH_QUILT.F
+Processing file: ../clubb_workspace/wrf/WRF/external/io_grib_share/io_grib_share.F
+unifdef: ../clubb_workspace/wrf/WRF/external/io_int/diffwrf.F: 358: unterminated char literal
+unifdef: output may be truncated
+Processing file: ../clubb_workspace/wrf/WRF/external/io_int/diffwrf.F
+Processing file: ../clubb_workspace/wrf/WRF/test/em_les/stat/stat2nc/SRC/stat2nc.f
+Processing file: ../clubb_workspace/wrf/WRF/test/em_les/stat/stat2nc/SRC/hbuf_lib.f
+Processing file: ../clubb_workspace/wrf/WRF/share/wrf_ext_read_field.F
+Processing file: ../clubb_workspace/wrf/WRF/share/module_check_a_mundo.F
+Processing file: ../clubb_workspace/wrf/WRF/share/wrf_bdyin.F
+unifdef: ../clubb_workspace/wrf/WRF/share/wrf_fddaobs_in.F: 609: unterminated char literal (#if line 133 depth 1)
+unifdef: output may be truncated
+Processing file: ../clubb_workspace/wrf/WRF/share/wrf_fddaobs_in.F
+unifdef: ../clubb_workspace/wrf/WRF/share/module_bc.F: 28: unterminated char literal
+unifdef: output may be truncated
+Processing file: ../clubb_workspace/wrf/WRF/share/module_bc.F
+Processing file: ../clubb_workspace/wrf/WRF/share/module_MPP.F
+Processing file: ../clubb_workspace/wrf/WRF/share/module_model_constants.F
+Processing file: ../clubb_workspace/wrf/WRF/share/solve_interface.F
+unifdef: ../clubb_workspace/wrf/WRF/share/input_wrf.F: 422: unterminated char literal
+unifdef: output may be truncated
+Processing file: ../clubb_workspace/wrf/WRF/share/input_wrf.F
+unifdef: ../clubb_workspace/wrf/WRF/share/mediation_force_domain.F: 78: unterminated char literal (#if line 76 depth 1)
+unifdef: output may be truncated
+Processing file: ../clubb_workspace/wrf/WRF/share/mediation_force_domain.F
+Processing file: ../clubb_workspace/wrf/WRF/share/mediation_wrfmain.F
+unifdef: ../clubb_workspace/wrf/WRF/share/output_wrf.F: 355: unterminated char literal (#if line 352 depth 1)
+unifdef: output may be truncated
+Processing file: ../clubb_workspace/wrf/WRF/share/output_wrf.F
+unifdef: ../clubb_workspace/wrf/WRF/share/mediation_interp_domain.F: 59: unterminated char literal (#if line 57 depth 1)
+unifdef: output may be truncated
+Processing file: ../clubb_workspace/wrf/WRF/share/mediation_interp_domain.F
+Processing file: ../clubb_workspace/wrf/WRF/share/wrf_tsin.F
+Processing file: ../clubb_workspace/wrf/WRF/share/sint.F
+Processing file: ../clubb_workspace/wrf/WRF/share/dfi.F
+unifdef: ../clubb_workspace/wrf/WRF/share/mediation_integrate.F: 48: unterminated char literal (#if line 47 depth 2)
+unifdef: output may be truncated
+Processing file: ../clubb_workspace/wrf/WRF/share/mediation_integrate.F
+Processing file: ../clubb_workspace/wrf/WRF/share/wrf_timeseries.F
+unifdef: ../clubb_workspace/wrf/WRF/share/module_optional_input.F: 1396: unterminated char literal (#if line 105 depth 1)
+unifdef: output may be truncated
+Processing file: ../clubb_workspace/wrf/WRF/share/module_optional_input.F
+unifdef: ../clubb_workspace/wrf/WRF/share/set_timekeeping.F: 17: unterminated char literal (#if line 16 depth 1)
+unifdef: output may be truncated
+Processing file: ../clubb_workspace/wrf/WRF/share/set_timekeeping.F
+Processing file: ../clubb_workspace/wrf/WRF/share/module_get_file_names.F
+Processing file: ../clubb_workspace/wrf/WRF/share/module_interp_fcn.F
+Processing file: ../clubb_workspace/wrf/WRF/share/wrf_bdyout.F
+unifdef: ../clubb_workspace/wrf/WRF/share/module_soil_pre.F: 474: unterminated char literal (#if line 1 depth 1)
+unifdef: output may be truncated
+Processing file: ../clubb_workspace/wrf/WRF/share/module_soil_pre.F
+unifdef: ../clubb_workspace/wrf/WRF/share/module_compute_geop.F: 37: unterminated char literal
+unifdef: output may be truncated
+Processing file: ../clubb_workspace/wrf/WRF/share/module_compute_geop.F
+Processing file: ../clubb_workspace/wrf/WRF/share/wrf_ext_write_field.F
+unifdef: ../clubb_workspace/wrf/WRF/share/module_llxy.F: 19: unterminated char literal
+unifdef: output may be truncated
+Processing file: ../clubb_workspace/wrf/WRF/share/module_llxy.F
+Processing file: ../clubb_workspace/wrf/WRF/share/wrf_restartin.F
+unifdef: ../clubb_workspace/wrf/WRF/share/mediation_feedback_domain.F: 76: unterminated char literal (#if line 72 depth 1)
+unifdef: output may be truncated
+Processing file: ../clubb_workspace/wrf/WRF/share/mediation_feedback_domain.F
+Processing file: ../clubb_workspace/wrf/WRF/share/module_date_time.F
+unifdef: ../clubb_workspace/wrf/WRF/share/interp_fcn.F: 1902: unterminated char literal (#if line 1898 depth 1)
+unifdef: output may be truncated
+Processing file: ../clubb_workspace/wrf/WRF/share/interp_fcn.F
+Processing file: ../clubb_workspace/wrf/WRF/share/module_io_wrf.F
+Processing file: ../clubb_workspace/wrf/WRF/share/start_domain.F
+Processing file: ../clubb_workspace/wrf/WRF/share/wrf_restartout.F
+Processing file: ../clubb_workspace/wrf/WRF/share/init_modules.F
+unifdef: ../clubb_workspace/wrf/WRF/share/mediation_nest_move.F: 217: unterminated char literal (#if line 13 depth 1)
+unifdef: output may be truncated
+Processing file: ../clubb_workspace/wrf/WRF/share/mediation_nest_move.F
+Processing file: ../clubb_workspace/wrf/WRF/share/module_bc_time_utilities.F
+Processing file: ../clubb_workspace/wrf/WRF/share/module_io_domain.F
+Processing file: ../clubb_workspace/wrf/WRF/main/ideal.F
+unifdef: ../clubb_workspace/wrf/WRF/main/wrf_SST_ESMF.F: 1257: unterminated char literal
+unifdef: output may be truncated
+Processing file: ../clubb_workspace/wrf/WRF/main/wrf_SST_ESMF.F
+unifdef: ../clubb_workspace/wrf/WRF/main/wrf_ESMFMod.F: 128: unterminated char literal
+unifdef: output may be truncated
+Processing file: ../clubb_workspace/wrf/WRF/main/wrf_ESMFMod.F
+unifdef: ../clubb_workspace/wrf/WRF/main/module_wrf_top.F: 315: unterminated char literal
+unifdef: output may be truncated
+Processing file: ../clubb_workspace/wrf/WRF/main/module_wrf_top.F
+Processing file: ../clubb_workspace/wrf/WRF/main/convert_em.F
+unifdef: ../clubb_workspace/wrf/WRF/main/tc_em.F: 1057: unterminated char literal
+unifdef: output may be truncated
+Processing file: ../clubb_workspace/wrf/WRF/main/tc_em.F
+unifdef: ../clubb_workspace/wrf/WRF/main/nup_em.F: 313: unterminated char literal
+unifdef: output may be truncated
+Processing file: ../clubb_workspace/wrf/WRF/main/nup_em.F
+unifdef: ../clubb_workspace/wrf/WRF/main/ndown_em.F: 765: unterminated char literal
+unifdef: output may be truncated
+Processing file: ../clubb_workspace/wrf/WRF/main/ndown_em.F
+Processing file: ../clubb_workspace/wrf/WRF/main/wrf.F
+unifdef: ../clubb_workspace/wrf/WRF/main/real_nmm.F: 1330: unterminated char literal
+unifdef: output may be truncated
+Processing file: ../clubb_workspace/wrf/WRF/main/real_nmm.F
+unifdef: ../clubb_workspace/wrf/WRF/main/real_em.F: 870: unterminated char literal
+unifdef: output may be truncated
+Processing file: ../clubb_workspace/wrf/WRF/main/real_em.F
+Processing file: ../clubb_workspace/wrf/WRF/dyn_exp/module_exp.F
+Processing file: ../clubb_workspace/wrf/WRF/dyn_exp/module_initialize_exp.F
+Processing file: ../clubb_workspace/wrf/WRF/dyn_exp/init_modules_exp.F
+unifdef: ../clubb_workspace/wrf/WRF/dyn_exp/solve_exp.F: 133: unterminated char literal
+unifdef: output may be truncated
+Processing file: ../clubb_workspace/wrf/WRF/dyn_exp/solve_exp.F
+Processing file: ../clubb_workspace/wrf/WRF/phys/clubb/hydromet_pdf_parameter_module.F90
+Processing file: ../clubb_workspace/wrf/WRF/phys/clubb/stat_file_module.F90
+Processing file: ../clubb_workspace/wrf/WRF/phys/clubb/gmres_cache.F90
+unifdef: ../clubb_workspace/wrf/WRF/phys/clubb/parameter_indices.F90: 6: unterminated char literal
+unifdef: output may be truncated
+Processing file: ../clubb_workspace/wrf/WRF/phys/clubb/parameter_indices.F90
+unifdef: ../clubb_workspace/wrf/WRF/phys/clubb/stats_variables.F90: 960: unterminated char literal
+unifdef: output may be truncated
+Processing file: ../clubb_workspace/wrf/WRF/phys/clubb/stats_variables.F90
+unifdef: ../clubb_workspace/wrf/WRF/phys/clubb/mono_flux_limiter.F90: 69: unterminated char literal
+unifdef: output may be truncated
+Processing file: ../clubb_workspace/wrf/WRF/phys/clubb/mono_flux_limiter.F90
+Processing file: ../clubb_workspace/wrf/WRF/phys/clubb/stats_lh_sfc.F90
+unifdef: ../clubb_workspace/wrf/WRF/phys/clubb/Skw_module.F90: 46: unterminated char literal
+unifdef: output may be truncated
+Processing file: ../clubb_workspace/wrf/WRF/phys/clubb/Skw_module.F90
+unifdef: ../clubb_workspace/wrf/WRF/phys/clubb/parameters_microphys.F90: 135: unterminated char literal
+unifdef: output may be truncated
+Processing file: ../clubb_workspace/wrf/WRF/phys/clubb/parameters_microphys.F90
+unifdef: ../clubb_workspace/wrf/WRF/phys/clubb/numerical_check.F90: 121: unterminated char literal
+unifdef: output may be truncated
+Processing file: ../clubb_workspace/wrf/WRF/phys/clubb/numerical_check.F90
+unifdef: ../clubb_workspace/wrf/WRF/phys/clubb/advance_windm_edsclrm_module.F90: 44: unterminated char literal
+unifdef: output may be truncated
+Processing file: ../clubb_workspace/wrf/WRF/phys/clubb/advance_windm_edsclrm_module.F90
+Processing file: ../clubb_workspace/wrf/WRF/phys/clubb/advance_helper_module.F90
+unifdef: ../clubb_workspace/wrf/WRF/phys/clubb/corr_matrix_module.F90: 106: unterminated char literal
+unifdef: output may be truncated
+Processing file: ../clubb_workspace/wrf/WRF/phys/clubb/corr_matrix_module.F90
+unifdef: ../clubb_workspace/wrf/WRF/phys/clubb/gmres_wrap.F90: 86: unterminated char literal (#if line 7 depth 1)
+unifdef: output may be truncated
+Processing file: ../clubb_workspace/wrf/WRF/phys/clubb/gmres_wrap.F90
+unifdef: ../clubb_workspace/wrf/WRF/phys/clubb/parameters_tunable.F90: 13: unterminated char literal
+unifdef: output may be truncated
+Processing file: ../clubb_workspace/wrf/WRF/phys/clubb/parameters_tunable.F90
+unifdef: ../clubb_workspace/wrf/WRF/phys/clubb/input_reader.F90: 141: unterminated char literal
+unifdef: output may be truncated
+Processing file: ../clubb_workspace/wrf/WRF/phys/clubb/input_reader.F90
+Processing file: ../clubb_workspace/wrf/WRF/phys/clubb/mean_adv.F90
+unifdef: ../clubb_workspace/wrf/WRF/phys/clubb/output_grads.F90: 152: unterminated string literal
+unifdef: output may be truncated
+Processing file: ../clubb_workspace/wrf/WRF/phys/clubb/output_grads.F90
+unifdef: ../clubb_workspace/wrf/WRF/phys/clubb/pos_definite_module.F90: 152: unterminated char literal
+unifdef: output may be truncated
+Processing file: ../clubb_workspace/wrf/WRF/phys/clubb/pos_definite_module.F90
+Processing file: ../clubb_workspace/wrf/WRF/phys/clubb/fixed_correlations.F90
+unifdef: ../clubb_workspace/wrf/WRF/phys/clubb/sponge_layer_damping.F90: 112: unterminated char literal
+unifdef: output may be truncated
+Processing file: ../clubb_workspace/wrf/WRF/phys/clubb/sponge_layer_damping.F90
+unifdef: ../clubb_workspace/wrf/WRF/phys/clubb/lapack_wrap.F90: 116: unterminated char literal
+unifdef: output may be truncated
+Processing file: ../clubb_workspace/wrf/WRF/phys/clubb/lapack_wrap.F90
+unifdef: ../clubb_workspace/wrf/WRF/phys/clubb/anl_erf.F90: 121: unterminated char literal
+unifdef: output may be truncated
+Processing file: ../clubb_workspace/wrf/WRF/phys/clubb/anl_erf.F90
+unifdef: ../clubb_workspace/wrf/WRF/phys/clubb/saturation.F90: 356: unterminated char literal
+unifdef: output may be truncated
+Processing file: ../clubb_workspace/wrf/WRF/phys/clubb/saturation.F90
+Processing file: ../clubb_workspace/wrf/WRF/phys/clubb/stats_rad_zm.F90
+unifdef: ../clubb_workspace/wrf/WRF/phys/clubb/surface_varnce_module.F90: 76: unterminated char literal
+unifdef: output may be truncated
+Processing file: ../clubb_workspace/wrf/WRF/phys/clubb/surface_varnce_module.F90
+unifdef: ../clubb_workspace/wrf/WRF/phys/clubb/parameters_model.F90: 124: unterminated char literal
+unifdef: output may be truncated
+Processing file: ../clubb_workspace/wrf/WRF/phys/clubb/parameters_model.F90
+unifdef: ../clubb_workspace/wrf/WRF/phys/clubb/grid_class.F90: 304: unterminated char literal
+unifdef: output may be truncated
+Processing file: ../clubb_workspace/wrf/WRF/phys/clubb/grid_class.F90
+unifdef: ../clubb_workspace/wrf/WRF/phys/clubb/variables_diagnostic_module.F90: 72: unterminated char literal
+unifdef: output may be truncated
+Processing file: ../clubb_workspace/wrf/WRF/phys/clubb/variables_diagnostic_module.F90
+Processing file: ../clubb_workspace/wrf/WRF/phys/clubb/extrapolation.F90
+unifdef: ../clubb_workspace/wrf/WRF/phys/clubb/clip_semi_implicit.F90: 196: unterminated char literal
+unifdef: output may be truncated
+Processing file: ../clubb_workspace/wrf/WRF/phys/clubb/clip_semi_implicit.F90
+Processing file: ../clubb_workspace/wrf/WRF/phys/clubb/array_index.F90
+unifdef: ../clubb_workspace/wrf/WRF/phys/clubb/PDF_utilities.F90: 396: unterminated char literal
+unifdef: output may be truncated
+Processing file: ../clubb_workspace/wrf/WRF/phys/clubb/PDF_utilities.F90
+unifdef: ../clubb_workspace/wrf/WRF/phys/clubb/advance_wp2_wp3_module.F90: 121: unterminated char literal
+unifdef: output may be truncated
+Processing file: ../clubb_workspace/wrf/WRF/phys/clubb/advance_wp2_wp3_module.F90
+unifdef: ../clubb_workspace/wrf/WRF/phys/clubb/diffusion.F90: 236: unterminated char literal
+unifdef: output may be truncated
+Processing file: ../clubb_workspace/wrf/WRF/phys/clubb/diffusion.F90
+unifdef: ../clubb_workspace/wrf/WRF/phys/clubb/interpolation.F90: 108: unterminated char literal
+unifdef: output may be truncated
+Processing file: ../clubb_workspace/wrf/WRF/phys/clubb/interpolation.F90
+Processing file: ../clubb_workspace/wrf/WRF/phys/clubb/hydrostatic_module.F90
+unifdef: ../clubb_workspace/wrf/WRF/phys/clubb/setup_clubb_pdf_params.F90: 31: unterminated char literal
+unifdef: output may be truncated
+Processing file: ../clubb_workspace/wrf/WRF/phys/clubb/setup_clubb_pdf_params.F90
+Processing file: ../clubb_workspace/wrf/WRF/phys/clubb/stats_sfc.F90
+Processing file: ../clubb_workspace/wrf/WRF/phys/clubb/parameters_radiation.F90
+unifdef: ../clubb_workspace/wrf/WRF/phys/clubb/variables_prognostic_module.F90: 35: unterminated char literal (#if line 29 depth 1)
+unifdef: output may be truncated
+Processing file: ../clubb_workspace/wrf/WRF/phys/clubb/variables_prognostic_module.F90
+Processing file: ../clubb_workspace/wrf/WRF/phys/clubb/T_in_K_module.F90
+Processing file: ../clubb_workspace/wrf/WRF/phys/clubb/endian.F90
+Processing file: ../clubb_workspace/wrf/WRF/phys/clubb/stats_rad_zt.F90
+unifdef: ../clubb_workspace/wrf/WRF/phys/clubb/hyper_diffusion_4th_ord.F90: 462: unterminated char literal
+unifdef: output may be truncated
+Processing file: ../clubb_workspace/wrf/WRF/phys/clubb/hyper_diffusion_4th_ord.F90
+unifdef: ../clubb_workspace/wrf/WRF/phys/clubb/model_flags.F90: 32: unterminated char literal (#if line 31 depth 1)
+unifdef: output may be truncated
+Processing file: ../clubb_workspace/wrf/WRF/phys/clubb/model_flags.F90
+unifdef: ../clubb_workspace/wrf/WRF/phys/clubb/csr_matrix_class_3array.F90: 17: unterminated char literal
+unifdef: output may be truncated
+Processing file: ../clubb_workspace/wrf/WRF/phys/clubb/csr_matrix_class_3array.F90
+unifdef: ../clubb_workspace/wrf/WRF/phys/clubb/pdf_closure_module.F90: 73: unterminated char literal
+unifdef: output may be truncated
+Processing file: ../clubb_workspace/wrf/WRF/phys/clubb/pdf_closure_module.F90
+unifdef: ../clubb_workspace/wrf/WRF/phys/clubb/advance_clubb_core_module.F90: 7: unterminated char literal
+unifdef: output may be truncated
+Processing file: ../clubb_workspace/wrf/WRF/phys/clubb/advance_clubb_core_module.F90
+Processing file: ../clubb_workspace/wrf/WRF/phys/clubb/stats_type.F90
+Processing file: ../clubb_workspace/wrf/WRF/phys/clubb/stats_type_utilities.F90
+unifdef: ../clubb_workspace/wrf/WRF/phys/clubb/error_code.F90: 8: unterminated char literal
+unifdef: output may be truncated
+Processing file: ../clubb_workspace/wrf/WRF/phys/clubb/error_code.F90
+Processing file: ../clubb_workspace/wrf/WRF/phys/clubb/pdf_parameter_module.F90
+Processing file: ../clubb_workspace/wrf/WRF/phys/clubb/stats_zt.F90
+unifdef: ../clubb_workspace/wrf/WRF/phys/clubb/advance_xm_wpxp_module.F90: 169: unterminated char literal
+unifdef: output may be truncated
+Processing file: ../clubb_workspace/wrf/WRF/phys/clubb/advance_xm_wpxp_module.F90
+unifdef: ../clubb_workspace/wrf/WRF/phys/clubb/diagnose_correlations_module.F90: 65: unterminated char literal
+unifdef: output may be truncated
+Processing file: ../clubb_workspace/wrf/WRF/phys/clubb/diagnose_correlations_module.F90
+Processing file: ../clubb_workspace/wrf/WRF/phys/clubb/stats_zm.F90
+Processing file: ../clubb_workspace/wrf/WRF/phys/clubb/clubb_precision.F90
+Processing file: ../clubb_workspace/wrf/WRF/phys/clubb/stats_lh_zt.F90
+unifdef: ../clubb_workspace/wrf/WRF/phys/clubb/fill_holes.F90: 180: unterminated string literal
+unifdef: output may be truncated
+Processing file: ../clubb_workspace/wrf/WRF/phys/clubb/fill_holes.F90
+Processing file: ../clubb_workspace/wrf/WRF/phys/clubb/sigma_sqd_w_module.F90
+unifdef: ../clubb_workspace/wrf/WRF/phys/clubb/stats_clubb_utilities.F90: 1058: unterminated char literal
+unifdef: output may be truncated
+Processing file: ../clubb_workspace/wrf/WRF/phys/clubb/stats_utilities.F90
+unifdef: ../clubb_workspace/wrf/WRF/phys/clubb/matrix_operations.F90: 136: unterminated char literal
+unifdef: output may be truncated
+Processing file: ../clubb_workspace/wrf/WRF/phys/clubb/matrix_operations.F90
+unifdef: ../clubb_workspace/wrf/WRF/phys/clubb/file_functions.F90: 39: unterminated char literal
+unifdef: output may be truncated
+Processing file: ../clubb_workspace/wrf/WRF/phys/clubb/file_functions.F90
+Processing file: ../clubb_workspace/wrf/WRF/phys/clubb/mt95.f90
+Processing file: ../clubb_workspace/wrf/WRF/phys/clubb/variables_radiation_module.F90
+unifdef: ../clubb_workspace/wrf/WRF/phys/clubb/clip_explicit.F90: 90: unterminated char literal
+unifdef: output may be truncated
+Processing file: ../clubb_workspace/wrf/WRF/phys/clubb/clip_explicit.F90
+Processing file: ../clubb_workspace/wrf/WRF/phys/clubb/input_names.F90
+Processing file: ../clubb_workspace/wrf/WRF/phys/clubb/calendar.F90
+unifdef: ../clubb_workspace/wrf/WRF/phys/clubb/mixing_length.F90: 19: unterminated char literal
+unifdef: output may be truncated
+Processing file: ../clubb_workspace/wrf/WRF/phys/clubb/mixing_length.F90
+unifdef: ../clubb_workspace/wrf/WRF/phys/clubb/advance_xp2_xpyp_module.F90: 176: unterminated char literal
+unifdef: output may be truncated
+Processing file: ../clubb_workspace/wrf/WRF/phys/clubb/advance_xp2_xpyp_module.F90
+unifdef: ../clubb_workspace/wrf/WRF/phys/clubb/constants_clubb.F90: 109: unterminated char literal
+unifdef: output may be truncated
+Processing file: ../clubb_workspace/wrf/WRF/phys/clubb/constants_clubb.F90
+unifdef: ../clubb_workspace/wrf/WRF/phys/clubb/output_netcdf.F90: 34: unterminated char literal (#if line 4 depth 1)
+unifdef: output may be truncated
+Processing file: ../clubb_workspace/wrf/WRF/phys/clubb/output_netcdf.F90
+unifdef: ../clubb_workspace/wrf/WRF/phys/silhs/latin_hypercube_driver_module.F90: 141: unterminated char literal (#if line 23 depth 1)
+unifdef: output may be truncated
+Processing file: ../clubb_workspace/wrf/WRF/phys/silhs/latin_hypercube_driver_module.F90
+unifdef: ../clubb_workspace/wrf/WRF/phys/silhs/latin_hypercube_arrays.F90: 32: unterminated char literal
+unifdef: output may be truncated
+Processing file: ../clubb_workspace/wrf/WRF/phys/silhs/latin_hypercube_arrays.F90
+unifdef: ../clubb_workspace/wrf/WRF/phys/silhs/estimate_scm_microphys_module.F90: 142: unterminated char literal
+unifdef: output may be truncated
+Processing file: ../clubb_workspace/wrf/WRF/phys/silhs/estimate_scm_microphys_module.F90
+Processing file: ../clubb_workspace/wrf/WRF/phys/silhs/math_utilities.F90
+unifdef: ../clubb_workspace/wrf/WRF/phys/silhs/est_kessler_microphys_module.F90: 75: unterminated char literal
+unifdef: output may be truncated
+Processing file: ../clubb_workspace/wrf/WRF/phys/silhs/est_kessler_microphys_module.F90
+unifdef: ../clubb_workspace/wrf/WRF/phys/silhs/transform_to_pdf_module.F90: 151: unterminated char literal
+unifdef: output may be truncated
+Processing file: ../clubb_workspace/wrf/WRF/phys/silhs/transform_to_pdf_module.F90
+unifdef: ../clubb_workspace/wrf/WRF/phys/silhs/permute_height_time_module.F90: 73: unterminated char literal
+unifdef: output may be truncated
+Processing file: ../clubb_workspace/wrf/WRF/phys/silhs/permute_height_time_module.F90
+Processing file: ../clubb_workspace/wrf/WRF/phys/silhs/output_2D_samples_module.F90
+Processing file: ../clubb_workspace/wrf/WRF/external/esmf_time_f90/ESMF_Stubs.F90
+Processing file: ../clubb_workspace/wrf/WRF/external/esmf_time_f90/ESMF_Fraction.F90
+Processing file: ../clubb_workspace/wrf/WRF/external/esmf_time_f90/module_utility.F90
+unifdef: ../clubb_workspace/wrf/WRF/external/esmf_time_f90/ESMF_Alarm.F90: 240: unterminated char literal
+unifdef: output may be truncated
+Processing file: ../clubb_workspace/wrf/WRF/external/esmf_time_f90/ESMF_Alarm.F90
+unifdef: ../clubb_workspace/wrf/WRF/external/esmf_time_f90/ESMF_Clock.F90: 160: unterminated char literal
+unifdef: output may be truncated
+Processing file: ../clubb_workspace/wrf/WRF/external/esmf_time_f90/ESMF_Clock.F90
+Processing file: ../clubb_workspace/wrf/WRF/external/esmf_time_f90/module_symbols_util.F90
+Processing file: ../clubb_workspace/wrf/WRF/external/esmf_time_f90/ESMF_AlarmClock.F90
+Processing file: ../clubb_workspace/wrf/WRF/external/esmf_time_f90/ESMF_Calendar.F90
+Processing file: ../clubb_workspace/wrf/WRF/external/esmf_time_f90/ESMF_Mod.F90
+Processing file: ../clubb_workspace/wrf/WRF/external/esmf_time_f90/Test1.F90
+Processing file: ../clubb_workspace/wrf/WRF/external/esmf_time_f90/ESMF_BaseTime.F90
+unifdef: ../clubb_workspace/wrf/WRF/external/esmf_time_f90/ESMF_Time.F90: 726: unterminated char literal
+unifdef: output may be truncated
+Processing file: ../clubb_workspace/wrf/WRF/external/esmf_time_f90/ESMF_Time.F90
+unifdef: ../clubb_workspace/wrf/WRF/external/esmf_time_f90/ESMF_TimeInterval.F90: 610: unterminated char literal
+unifdef: output may be truncated
+Processing file: ../clubb_workspace/wrf/WRF/external/esmf_time_f90/ESMF_TimeInterval.F90
+Processing file: ../clubb_workspace/wrf/WRF/external/esmf_time_f90/Meat.F90
+unifdef: ../clubb_workspace/wrf/WRF/external/esmf_time_f90/ESMF_Base.F90: 116: unterminated char literal
+unifdef: output may be truncated
+Processing file: ../clubb_workspace/wrf/WRF/external/esmf_time_f90/ESMF_Base.F90
+unifdef: ../clubb_workspace/wrf/WRF/external/fftpack/convert.f90: 9: unterminated char literal
+unifdef: output may be truncated
+Processing file: ../clubb_workspace/wrf/WRF/external/fftpack/convert.f90
+Processing file: ../clubb_workspace/wrf/WRF/external/RSL_LITE/f_xpose.F90
+Processing file: ../clubb_workspace/wrf/WRF/external/RSL_LITE/f_pack.F90
+Processing file: ../clubb_workspace/wrf/WRF/external/io_grib1/test_grid_info.F90
+Processing file: ../clubb_workspace/wrf/WRF/external/io_grib1/test_gribmap.F90
+Processing file: ../clubb_workspace/wrf/WRF/external/io_esmf/module_utility.F90
+Processing file: ../clubb_workspace/wrf/WRF/external/io_esmf/ext_esmf_open_for_write.F90
+Processing file: ../clubb_workspace/wrf/WRF/external/io_esmf/module_symbols_util.F90
+Processing file: ../clubb_workspace/wrf/WRF/external/io_esmf/ext_esmf_read_field.F90
+Processing file: ../clubb_workspace/wrf/WRF/external/io_esmf/ext_esmf_write_field.F90
+Processing file: ../clubb_workspace/wrf/WRF/external/io_esmf/ext_esmf_open_for_read.F90
+unifdef: ../clubb_workspace/wrf/WRF/external/io_esmf/io_esmf.F90: 428: unterminated char literal
+unifdef: output may be truncated
+Processing file: ../clubb_workspace/wrf/WRF/external/io_esmf/io_esmf.F90
+unifdef: ../clubb_workspace/wrf/WRF/external/io_esmf/module_esmf_extensions.F90: 21: unterminated char literal
+unifdef: output may be truncated
+Processing file: ../clubb_workspace/wrf/WRF/external/io_esmf/module_esmf_extensions.F90
+unifdef: ../clubb_workspace/wrf/WRF/external/io_netcdf/diffwrf.F90: 357: unterminated char literal
+unifdef: output may be truncated
+Processing file: ../clubb_workspace/wrf/WRF/external/io_netcdf/diffwrf.F90
+Processing file: ../clubb_workspace/wrf/WRF/external/io_netcdf/module_wrfsi_static.F90
+Processing file: ../clubb_workspace/wrf/WRF/external/io_netcdf/testWRFWrite.F90
+Processing file: ../clubb_workspace/wrf/WRF/external/io_netcdf/testWRFRead.F90
+unifdef: ../clubb_workspace/wrf/WRF/external/io_netcdf/wrf_io.F90: 730: unterminated char literal
+unifdef: output may be truncated
+Processing file: ../clubb_workspace/wrf/WRF/external/io_netcdf/wrf_io.F90
+Processing file: ../clubb_workspace/wrf/WRF/external/io_netcdf/vort.F90
+Processing file: ../clubb_workspace/wrf/WRF/external/io_netcdf/field_routines.F90
+unifdef: ../clubb_workspace/wrf/WRF/external/io_int/io_int.F90: 111: unterminated char literal
+unifdef: output may be truncated
+Processing file: ../clubb_workspace/wrf/WRF/external/io_int/io_int.F90
+Processing file: ../clubb_workspace/wrf/WRF/external/io_mcel/ext_mcel_open_for_write.F90
+Processing file: ../clubb_workspace/wrf/WRF/external/io_mcel/ext_mcel_write_field.F90
+Processing file: ../clubb_workspace/wrf/WRF/external/io_mcel/io_mcel.F90
+Processing file: ../clubb_workspace/wrf/WRF/external/io_mcel/ext_mcel_open_for_read.F90
+unifdef: ../clubb_workspace/wrf/WRF/external/io_mcel/ext_mcel_read_field.F90: 255: unterminated char literal
+unifdef: output may be truncated
+Processing file: ../clubb_workspace/wrf/WRF/external/io_mcel/ext_mcel_read_field.F90
+Processing file: ../clubb_workspace/wrf/WRF/external/io_pnetcdf/module_wrfsi_static.F90
+Processing file: ../clubb_workspace/wrf/WRF/external/io_pnetcdf/testWRFWrite.F90
+Processing file: ../clubb_workspace/wrf/WRF/external/io_pnetcdf/testWRFRead.F90
+unifdef: ../clubb_workspace/wrf/WRF/external/io_pnetcdf/wrf_io.F90: 745: unterminated char literal
+unifdef: output may be truncated
+Processing file: ../clubb_workspace/wrf/WRF/external/io_pnetcdf/wrf_io.F90
+Processing file: ../clubb_workspace/wrf/WRF/external/io_pnetcdf/field_routines.F90
+Processing file: ../clubb_workspace/wrf/WRF/external/io_phdf5/wrf-phdf5attr.F90
+unifdef: ../clubb_workspace/wrf/WRF/external/io_phdf5/wrf-phdf5.F90: 117: unterminated char literal
+unifdef: output may be truncated
+Processing file: ../clubb_workspace/wrf/WRF/external/io_phdf5/wrf-phdf5.F90
+Processing file: ../clubb_workspace/wrf/WRF/external/io_phdf5/wrf-phdf5support.F90

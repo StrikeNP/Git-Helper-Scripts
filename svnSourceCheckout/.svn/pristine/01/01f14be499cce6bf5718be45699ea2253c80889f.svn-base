@@ -1,0 +1,136 @@
+ &LESPRM
+
+ ! Specifed SST (constant or time varying) in sfc
+ ! If false, SST should be set as in the initial sounding
+ dospecifysst = .TRUE.
+ 
+ ! Compute sfc shflx and lhflx
+ ! Set false to use specified value in sfc
+ docompsfcflx = .FALSE.
+
+ ! Compute sfc u and v stress
+ ! Set false to use specified value in sfc
+ docompsfcust = .FALSE.
+
+ ! Compute sfc friction velocity and flux with a special code
+ dosfcspecial = .TRUE.
+ sfcspecial_type = 1   ! 1 for RICO
+
+ ! Subsidence
+ ! divlsf has to be specified in lsf
+ dosubsidence = .TRUE.
+
+ ! Large scale advective forcing for theta and qv
+ doadvforcing  = .TRUE.
+
+ ! Radiative forcing
+ doradforcing  = .FALSE.
+
+ ! Nudging for u & v toward ulsf & vlsf
+ donudging_uv = .FALSE.
+
+ ! Nudging for theta & qv toward tlsf & qlsf
+ donudging_tq = .FALSE.
+
+ ! Maintain vertical gradient at the upper bound
+ doupperbound = .TRUE.
+
+ ! Initial perturbation: 0 default
+ perturb_type = 3   ! 3 for RICO
+
+ ! Surface type: 1 for land, 2 for ocean 
+ surface_type = 2
+
+ ! Coriolis force
+ coriolis  = 0.449e-4
+
+ ! Latitude and longitude
+ latitude  = 18.
+ longitude = -62.
+
+ ! Nudging time scale (seconds) if donudging_uv or donudging_tq
+ tau_ndg = 0.
+
+ ! Domain translation velocity
+ ug = 0.
+ vg = 0.
+
+ ! Parameters for module_mp_feingold2m.F
+ ! CCN number concentration (#/mg)
+ nccn_feingold2m   = 100.
+ ! Mean of CCN size distribution (cm)
+ dg_ccn_feingold2m = 0.2e-4
+ ! Sigma of CCN size distrituion
+ sg_ccn_feingold2m = 1.5
+ ! Sigma of cloud distribution
+ sg_cloud_feingold2m = 1.2
+ ! Sigma of rain distribution
+ sg_rain_feingold2m  = 1.2
+ ! # of seconds to initialte drizzle
+ drzst_feingold2m  = 0.
+ ! Sedimentation flag: 0-no sedimenation, 1-bin, 2-bulk
+ drzflg_feingold2m = 1
+ ! Collision & coalescence flag
+ colflg_feingold2m = .TRUE.
+ ! Add CCN source
+ srcccn_add_feingold2m = .FALSE.
+ ! Start time to add CCN source (second)
+ srcccn_starttime_feingold2m = 0.
+ ! CCN source (#/mg/hour)
+ srcccn_feingold2m = 0.
+ ! Minimum value of water vapor mixing ratio (g/kg)
+ ! CCN source is added more than this value.
+ srcccn_qvmin_feingold2m = 1000.
+
+/ 
+
+ &STAT
+
+ ! Output file name, which has to end with .stat.
+ ! Default file name is casename_wrf.stat. "casename" will be added at the initialization.
+ ! The length of stat_file_name is 148.
+ stat_file_name ='128x128x100_dt1sec.stat'
+
+ ! Interval in steps to compute statistics.
+ ! The frequency of saving restart data has to be divisible without remainder by nstat
+ ! restart_interval in steps has to be divisible without remainder by nstat
+ nstat = 60
+ 
+ ! Frequency of computing statistics in steps = number of samples collected over nstat
+ ! nstat has to be divisible without remainder by nstatfrq
+ nstatfrq = 1
+ 
+ ! Set true if LES.
+ ! Default = .FALSE.
+ LES = .TRUE.
+
+ ! Option for core updraft, core downdraft conditional statistics
+ ! Default = .FALSE.
+ doSAMconditionals = .TRUE.
+ 
+ ! Option for cloudy updrafts, cloudy downdrafts and cloud-free conditional statistics
+ ! Default = .FALSE.
+ dosatupdnconditionals = .TRUE.
+
+ ! Option for updrafts and downdrafts conditional statistics
+ ! Default = .FALSE.
+ doupdnconditionals = .TRUE.
+
+ ! Number of layers between two output levels.
+ ! This high resolution level is used for the mean profile calculation for flux and moment. 
+ ! Default = 10
+ hrlayers = 20
+
+ ! Minimum threshold for moisture variables (cloud water, cloud ice, rain, snow, graupel).
+ ! Each grid value will be reset to 0 if it is smaller than threshold.
+ ! Set dousednc = .TRUE. if the threshold is droplet number concentration instead of mixing ratio.
+ ! Unit for mixing ratio is g/kg, the unit for droplet number concentration is #/mg (~#/cm3)
+ ! Default threshold is zero. Default dousednc = .FALSE.
+ qc_threshold = 0.01
+ qi_threshold = 0.
+ qr_threshold = 0.001
+ qs_threshold = 0.
+ qg_threshold = 0.
+ dousednc = .FALSE.
+
+/ 

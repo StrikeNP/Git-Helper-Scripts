@@ -1,0 +1,32 @@
+The WPS_GEOG directory is used to store the geographical input data for WRF
+Preprocessing System (WPS).  This is a large amount of data, so it should not be
+committed to SVN.  Rather, it should be placed in a common area on the computer
+so that multiple users can have access to it.
+
+The WPS geographical input data can be downloaded from:
+
+http://www2.mmm.ucar.edu/wrf/users/download/get_sources_wps_geog.html.
+
+The complete dataset is downloaded in a file called geog_complete.tar.bz2, and
+its full address is:
+
+http://www2.mmm.ucar.edu/wrf/src/wps_files/geog_complete.tar.bz2.
+
+Unpack this file in a common area on the computer.  It will unpack into a
+top-level directory called geog.
+
+The minimum dataset (lowest resolution of each mandatory field) is downloaded
+in a file called geog_minimum.tar.bz2, and its full address is:
+
+http://www2.mmm.ucar.edu/wrf/src/wps_files/geog_minimum.tar.bz2.
+
+This file does not unpack into a single top-level directory.  In order for the
+dataset to be located properly, it needs to be unpacked in the geog directory.
+If the complete dataset is not being used, then a top-level directory named
+geog needs to be made.  Otherwise, geog_complete.tar.bz2 needs to be unpacked
+first, and then geog_minimum.tar.bz2 needs to be unpacked inside the geog
+directory.
+
+The WPS_GEOG directory contains a symbolic link (called geog) to the directory
+on the computer that contains the geographical input data.  This link may need
+to be edited if the path to the geographical input data changes.

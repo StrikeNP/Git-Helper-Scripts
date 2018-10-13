@@ -1,0 +1,206 @@
+! $Id$
+!===============================================================================
+! The following group of figures make the Arakawa C grid used in WRF more
+! graphically understandable.  The grid will be shown from seven different
+! angles -- six two-dimensional cross-sectional views and a 3D look at a small
+! cubic sector.
+!
+! U stands for locations where horizontal momentum variables in the x-direction
+!    (east-west), which are the u wind component and it's tendencies, are
+!    calculated.
+! V stands for locations where horizontal momentum variables in the y-direction
+!    (south-north), which are the v wind component and it's tendencies, are
+!    calculated.
+! W stands for locations where vertical momentum variables, which are the w wind
+!    component and it's tendencies, are calculated.  Additionally, geopotential
+!    (phb, ph) is calculated at W points.  Other variables that are calculated
+!    here have 'w' in there names (examples of this are dnw, znw, dzw, z_at_w,
+!    rdzw, etc.).
+! THERMO stands for locations where thermodynamic and all other major variables
+!    are calculated, such as pressure, theta, mixing ratios, etc.
+!
+! Brian Griffin (file created 11/24/2004; revised 6/11/2010)
+!-------------------------------------------------------------------------------
+!
+!                         A Small 3-Dimensional Cube Sector
+!                         ---------------------------------
+!                        [1 unit X by 1 unit Y by 1 unit Z]
+!
+!                        -------------------------------
+!                       /.             /.             /|
+!                      / .            / .            / |
+!                     /--------------W--------------/  |
+!                    /.  .          /.  .          /|  |
+!                   / .  .         / .  .         / |  |
+! full-level k = 2 -------------------------------  |  |
+!                  |  .  .        |  .  .        |  |  |
+!    /|\           |  .  .........|.....V........|..|...
+!     |            |  . /.        |  . /.        |  | /|
+!     |  Z         |  ./ .        |  ./ .        |  |/ |
+!     |            |  U...........|THERMO........|..U  |
+!     |            | /.  .        | /.  .        | /|  |
+!                  |/ .  .        |/ .  .        |/ |  |
+! half-level k = 1 ---------------V---------------  |  |
+!                  |  .  .        |  .  .        |  |  |
+!    /|\           |  .  .........|..............|..|...    __  full-level j = 2
+!     |            |  . .         |  . .         |  | /      /|
+!     |  Z         |  ..          |  ..          |  |/      /
+!     |            |  ............|..W...........|../    Y / half-level j = 1
+!     |            | .            | .            | /      /
+!                  |.             |.             |/      /
+! full-level k = 1 -------------------------------      / full-level j = 1
+!
+!                                 X
+!                  ------------------------------>
+!              full-level     half-level     full-level
+!                i = 1          i = 1          i = 2
+!
+! NOTE:  The thermodynamic point (THERMO) is located halfway between the
+!        vertical momentum points, halfway between the horizontal-x momentum
+!        points, and halfway between the horizontal-y momentum points.
+!
+!-------------------------------------------------------------------------------
+!
+!                            Vertical vs. West-East
+!                            ----------------------
+!               [On a cross-section of an south-north (j) HALF-level]
+!
+!
+! half-level k = 2     U--------THERMO--------U--------THERMO
+!                      |          :           |          :
+!                      |          :           |          :
+! full-level k = 2     ===========W======================W
+!                      |          :           |          :
+!                      |          :           |          :
+! half-level k = 1     U--------THERMO--------U--------THERMO
+!                      |          :           |          :
+!                      |          :           |          :
+! full-level k = 1     ===========W======================W       model bottom
+!
+!                    i = 1      i = 1       i = 2      i = 2
+!
+!                  full-level half-level  full-level half-level
+!
+!                  west end
+!
+!-------------------------------------------------------------------------------
+!
+!                            Vertical vs. West-East
+!                            ----------------------
+!               [On a cross-section of an south-north (j) FULL-level]
+!
+!
+! half-level k = 2     |----------V-----------|----------V
+!                      |          :           |          :
+!                      |          :           |          :
+! full-level k = 2     ===================================
+!                      |          :           |          :
+!                      |          :           |          :
+! half-level k = 1     |----------V-----------|----------V
+!                      |          :           |          :
+!                      |          :           |          :
+! full-level k = 1     ===================================       model bottom
+!
+!                    i = 1      i = 1       i = 2      i = 2
+!
+!                  full-level half-level  full-level half-level
+!
+!                  west end
+!
+!-------------------------------------------------------------------------------
+!
+!                           Vertical vs. South-North
+!                           ------------------------
+!                [On a cross-section of an west-east (i) HALF-level]
+!
+!
+! half-level k = 2     V--------THERMO--------V--------THERMO
+!                      |          :           |          :
+!                      |          :           |          :
+! full-level k = 2     ===========W======================W
+!                      |          :           |          :
+!                      |          :           |          :
+! half-level k = 1     V--------THERMO--------V--------THERMO
+!                      |          :           |          :
+!                      |          :           |          :
+! full-level k = 1     ===========W======================W       model bottom
+!
+!                    j = 1      j = 1       j = 2      j = 2
+!
+!                  full-level half-level  full-level half-level
+!
+!                  south end
+!
+!-------------------------------------------------------------------------------
+!
+!                           Vertical vs. South-North
+!                           ------------------------
+!                [On a cross-section of an west-east (i) FULL-level]
+!
+!
+! half-level k = 2     -----------U----------------------U
+!                      |          :           |          :
+!                      |          :           |          :
+! full-level k = 2     ===================================
+!                      |          :           |          :
+!                      |          :           |          :
+! half-level k = 1     -----------U----------------------U
+!                      |          :           |          :
+!                      |          :           |          :
+! full-level k = 1     ===================================       model bottom
+!
+!                    j = 1      j = 1       j = 2      j = 2
+!
+!                  full-level half-level  full-level half-level
+!
+!                  south end
+!
+!-------------------------------------------------------------------------------
+!
+!                           South-North vs. West-East
+!                           -------------------------
+!                 [On a cross-section of a vertical (k) HALF-level]
+!
+!
+! half-level j = 2     U--------THERMO--------U--------THERMO
+!                      |          :           |          :
+!                      |          :           |          :
+! full-level j = 2     ===========V======================V
+!                      |          :           |          :
+!                      |          :           |          :
+! half-level j = 1     U--------THERMO--------U--------THERMO
+!                      |          :           |          :
+!                      |          :           |          :
+! full-level j = 1     ===========V======================V       south end
+!
+!                    i = 1      i = 1       i = 2      i = 2
+!
+!                  full-level half-level  full-level half-level
+!
+!                  west end
+!
+!-------------------------------------------------------------------------------
+!
+!                           South-North vs. West-East
+!                           -------------------------
+!                 [On a cross-section of a vertical (k) FULL-level]
+!
+!
+! half-level j = 2     -----------W----------------------W
+!                      |          :           |          :
+!                      |          :           |          :
+! full-level j = 2     ===================================
+!                      |          :           |          :
+!                      |          :           |          :
+! half-level j = 1     -----------W----------------------W
+!                      |          :           |          :
+!                      |          :           |          :
+! full-level j = 1     ===================================       south end
+!
+!                    i = 1      i = 1       i = 2      i = 2
+!
+!                  full-level half-level  full-level half-level
+!
+!                  west end
+!
+!===============================================================================

@@ -1,0 +1,2 @@
+source /etc/profile.d/larson-group.sh
+./run_Forecast.bash &> wrfoutput.txt
