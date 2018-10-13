@@ -1,4 +1,0 @@
-The DATA directory contains model data used as input by WRF Preprocessing
-System (WPS) in order to produce the initial conditions and the boundary
-conditions used by WRF model runs.  It also contains data files for Sea Surface
-Temperature (SST).

@@ -1,6 +1,0 @@
-AM3_14S80W_JDAY552
-This is a case to troubleshoot AM3-CLUBB.
-The case is based on a grid column of AM3 (not AM3-CLUBB) located at approximately 14S and 80W.
-This is a night time stratocumulus case on Julian day 552.
-Exact local time can be computed from values listed in namelist.input and prm.
-
