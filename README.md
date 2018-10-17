@@ -6,4 +6,6 @@ This is intended to be a set of scripts that helps with:
 
 These scripts were developed with a specific use case in mind, and then converted after the fact towards a more generalized use case (for you).
 
-Please feel free to use and modify these scripts. If you make changes/improvements, send a pull request and I'll try to include them. I'm not responsible if they break your stuff, but they shouldn't.
+Please feel free to use and modify these scripts. If you make changes/improvements, send a pull request and I'll try to include them.
+
+I'm not responsible if these scripts break your stuff, but they shouldn't.
